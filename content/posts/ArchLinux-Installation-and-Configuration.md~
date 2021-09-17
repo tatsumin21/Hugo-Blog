@@ -1,5 +1,5 @@
 ---
-title: "Arch Linux �������������"
+title: "ArchLinux Installation and Configuration"
 date: 2020-10-21T21:49:51+02:00
 draft: false
 toc: false
@@ -8,7 +8,7 @@ tags:
   - Linux
   - InfoTech
 ---
-## Keep It Simple, Stupid!
+## Keep It Simple, Stupid
 
 我最初尝试使用Linux已经是2015年的事了。基于日渐增加的对Windows（以下简称Win）各种不满，在知乎上看到 只用Linux系统是一种怎样的体验 后决定装个双系统来试试。磕磕绊绊装好也用了一段时间后，却因为某次Win10的系统升级，Arch Linux被莫名其妙干掉后就也放弃了再从头装一遍。更何况专业对Linux没有刚需加上舍不得游戏，便就着Win10也用了下去。直到一个月前无意中看到QQ for Linux 时隔10年居然更新了，无聊中便生出了再次拥抱Arch Linux的想法。
 
