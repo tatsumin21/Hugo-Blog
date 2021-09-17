@@ -61,7 +61,8 @@ DWM安装配置好后，状态栏默认是没有常见的时间音量等系统�
 
 去Suckless的网站里能找到一个名为systray的patch。但我在打上补丁后却发现DWM无法正常运行了。一顿搜索后发现了问题所在：
 
-`名为alpha的提供半透明功能的patch和systray patch有冲突。`
+```名为alpha的提供半透明功能的patch和systray patch有冲突。
+```
 
 这个问题在Reddit上有部分人提了出来，并且暂时成的完美解决方案。当然如果懂C语言的可以直接去源代码自己改。但对于不懂程序语言的我来说，便只好放弃systray patch的实现。
 
