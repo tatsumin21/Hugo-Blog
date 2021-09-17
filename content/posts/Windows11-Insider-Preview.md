@@ -20,11 +20,12 @@ Win10将会是 Windows 最后一个大版本。
 
 目前正在使用的是 Win11 操作系统版本为:
 
-`Edition	Windows 11 Pro
+```Edition	Windows 11 Pro
 Version	        21H2
 Installed on	‎03/‎09/‎2021
 OS build	22000.176
-Experience	Windows Feature Experience Pack 1000.22000.176.0`
+Experience	Windows Feature Experience Pack 1000.22000.176.0
+```
 
 ## 更新
 
