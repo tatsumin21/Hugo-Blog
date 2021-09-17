@@ -1,0 +1,28 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on TATSUMIN 巽</title>
+        <link>https://tatsumin21.github.io/posts/</link>
+        <description>Recent content in Posts on TATSUMIN 巽</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Fri, 17 Sep 2021 01:12:44 +0200</lastBuildDate>
+        <atom:link href="https://tatsumin21.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Test</title>
+            <link>https://tatsumin21.github.io/posts/2021/09/test/</link>
+            <pubDate>Fri, 17 Sep 2021 01:12:44 +0200</pubDate>
+            
+            <guid>https://tatsumin21.github.io/posts/2021/09/test/</guid>
+            <description>test 中文測試 日本語テスト
+巽です！よろしく！ </description>
+            <content type="html"><![CDATA[<h2 id="test">test</h2>
+<h3 id="中文測試">中文測試</h3>
+<p>日本語テスト</p>
+<h2 id="巽ですよろしく">巽です！よろしく！</h2>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
