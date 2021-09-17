@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tatsumin21.github.io/fr/categories/</loc>
+    <loc>https://clever-lichterman-6bf717.netlify.app/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://tatsumin21.github.io/categories/"
+                href="https://clever-lichterman-6bf717.netlify.app/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://tatsumin21.github.io/fr/categories/"
+                href="https://clever-lichterman-6bf717.netlify.app/fr/categories/"
                 />
   </url><url>
-    <loc>https://tatsumin21.github.io/fr/series/</loc>
+    <loc>https://clever-lichterman-6bf717.netlify.app/fr/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://tatsumin21.github.io/series/"
+                href="https://clever-lichterman-6bf717.netlify.app/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://tatsumin21.github.io/fr/series/"
+                href="https://clever-lichterman-6bf717.netlify.app/fr/series/"
                 />
   </url><url>
-    <loc>https://tatsumin21.github.io/fr/tags/</loc>
+    <loc>https://clever-lichterman-6bf717.netlify.app/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://tatsumin21.github.io/tags/"
+                href="https://clever-lichterman-6bf717.netlify.app/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://tatsumin21.github.io/fr/tags/"
+                href="https://clever-lichterman-6bf717.netlify.app/fr/tags/"
                 />
   </url><url>
-    <loc>https://tatsumin21.github.io/fr/</loc>
+    <loc>https://clever-lichterman-6bf717.netlify.app/fr/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://tatsumin21.github.io/"
+                href="https://clever-lichterman-6bf717.netlify.app/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://tatsumin21.github.io/fr/"
+                href="https://clever-lichterman-6bf717.netlify.app/fr/"
                 />
   </url>
 </urlset>
