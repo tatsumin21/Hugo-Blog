@@ -42,6 +42,7 @@ Suckless的极简最直观便体现在代码了。与其他众多WM不同，DWM�
 这里非常感谢B站up主theCW的教学视频
 
 -[【高效神器】dwm安装与配置（1） —— 极简的窗口管理器 【Suckless的极简主义01】](https://www.bilibili.com/video/BV11J411t7RY)
+
 -[【高效神器】dwm安装与配置（2） —— 极简的窗口管理器 【Suckless的极简主义02】](https://www.bilibili.com/video/BV1dJ411t7Hn)
 
 具体步骤讲的非常详细好懂，包括打补丁的方法也都有具体演示。只要是能自己参照Wiki独立成功安装Arch Linux的，照着这个视频弄好DWM应该是没多大问题的。

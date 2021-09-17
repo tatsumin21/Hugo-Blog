@@ -39,8 +39,13 @@ disableHugoGeneratorInject = false
 [author]
   name = "Noris Tatsumi"
 
-[blackfriday]
-  hrefTargetBlank = true
+[markup]
+  [markup.blackfriday]
+    hrefTargetBlank = true
+  [markup.highlight]
+    codeFences = true
+    lineNumbersInTable = true
+    style = 'native'
 
 [taxonomies]
   tag      = "tags"
