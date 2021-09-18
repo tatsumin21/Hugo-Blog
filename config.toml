@@ -99,7 +99,7 @@ disableHugoGeneratorInject = false
   #
   # Enables the global language menu.
   #
-  enableGlobalLanguageMenu = true
+  enableGlobalLanguageMenu = false
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
@@ -164,24 +164,24 @@ disableHugoGeneratorInject = false
 
   # Social icons
   [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/"
+    name = "mastodon"
+    url  = "https://holmmade.cafe/@norihiro"
 
   [[params.social]]
     name = "email"
-    url  = "mailto:nobody@example.com"
+    url  = "mailto:noris@tatsumin.dev"
+
+#  [[params.social]]
+#    name = "github"
+#    url  = "https://github.com/"
+
+#  [[params.social]]
+#    name = "linkedin"
+#    url  = "https://www.linkedin.com/"
 
   [[params.social]]
-    name = "github"
-    url  = "https://github.com/"
-
-  [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/"
-
-  [[params.social]]
-    name = "stackoverflow"
-    url  = "https://www.stackoverflow.com/"
+    name = "xmpp"
+    url  = "xmpp:norihiro@404.city"
 
 [languages]
   [languages.en]
