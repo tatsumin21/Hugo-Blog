@@ -180,12 +180,12 @@ disableHugoGeneratorInject = false
 #    url  = "https://www.linkedin.com/"
 
   [[params.social]]
-    name = "xmpp"
-    url  = "xmpp:norihiro@404.city"
+    name = "keybase"
+    url  = "https://keybase.io/tatsumin"
 
 [languages]
   [languages.en]
-    subtitle  = "Hello Friend NG Theme"
+    subtitle  = "A Blog for recording my learning and my life"
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
