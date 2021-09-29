@@ -4,8 +4,6 @@ date: 2021-09-29T13:48:09+02:00
 draft: false
 ---
 
-# About
-
 这里是 Tasumi。Noris，Norihiro，KAI_，这些都是我曾经或者仍在各个平台上使用的名字。除了Tatsumi本身，他们都是我根据自己本名而二次创作想出来的。
 
 现居德国。
