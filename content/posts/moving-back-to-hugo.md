@@ -39,6 +39,8 @@ tags:
 
 至于域名，选择了 `.dev` 而不是 `.com`，是因为 dev 域名默认开启了 `HSTS (HTTP Strict Transport Security)` 并因此拥有更高的安全性。同时我也在DNS服务中开启了 `DNSSEC`。
 
+- 网站的 `HSTS Preload` 状况可以在这里检查：[hstspreload.org/](https://hstspreload.org/)
+
 还是那句老话，虽然只是个没什么人来看的小破站，但我仍然希望能在我的知识和能力范围内提高它的隐私保护和安全性。
 
 ## 其他碎碎念
