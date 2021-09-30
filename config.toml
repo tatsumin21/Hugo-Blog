@@ -164,8 +164,8 @@ disableHugoGeneratorInject = false
 
   # Social icons
   [[params.social]]
-    name = "mastodon"
-    url  = "https://holmmade.cafe/@norihiro"
+    name = "twitter"
+    url  = "https://twitter.com/kai_sc02"
 
   [[params.social]]
     name = "email"

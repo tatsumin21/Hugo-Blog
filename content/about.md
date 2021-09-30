@@ -20,7 +20,7 @@ B.Sc. in Business Administration
 
 - Seminar paper: Conceptualizing Capitalism
 - Seminar paper: Strategy Analysis of Oil Companies
-- Master Thesis: Omni-channel Retailing and Its Impacts on Customer Ex-perience and Customer Engagement
+- Master Thesis: Omni-channel Retailing and Its Impacts on Customer Experience and Customer Engagement
 
 没错，我并不是计算机相关专业，甚至可以说所学与其没有半毛钱关系。Linux也好，VPS和这个Hugo Blog也罢，都是纯粹出于兴趣在折腾学习使用。
 
