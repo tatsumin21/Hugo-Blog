@@ -21,7 +21,7 @@ Linux下跑FF14本不是个难事，很早之前Steam的Proton和Lutris就都能
 
 `kcptun` 加速流量的原理根据Github上的介绍，如下图所示：
 
-！[KCPTUN](https://raw.githubusercontent.com/xtaci/kcptun/master/kcptun.png)
+![KCPTUN](https://raw.githubusercontent.com/xtaci/kcptun/master/kcptun.png)
 
 
 ## 准备
