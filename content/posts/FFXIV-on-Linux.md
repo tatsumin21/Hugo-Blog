@@ -1,5 +1,5 @@
 ---
-title: "Playing FFXIV on Linux and Reducing Latency by KCPTUN and Shadowsocks"
+title: "通过KCPTUN 和 Shadowsocks 给 Linux 下的网游加速"
 date: 2021-10-04T19:52:52+02:00
 draft: false
 toc: false
@@ -231,4 +231,7 @@ Shadowsocks客户端实现就更多了，随便一个用的顺手的就行。
 
 可以说至少比直连效果还是很明显的，甚至不比win下需要每个月订阅的加速器效果差多少。如果手上刚好有闲置vps，又有游戏加速需求的话，还是值得一试的。
 
-
+## 参考
+- [荒岛：配置使用Kcptun来暴力加速shadowsocks代理](https://lala.im/1569.html)
+- [Github: xtaci/kcptun](https://github.com/xtaci/kcptun)
+- [ArchLinux Wiki: Shadowsocks](https://wiki.archlinux.org/title/Shadowsocks_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
