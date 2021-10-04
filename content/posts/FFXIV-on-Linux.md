@@ -114,7 +114,7 @@ chmod +x $HOME/kcptun/kcptun.sh
 添加systemd启动服务,注意将 `/path/to/yout/kcptun.sh` 替换成之前建的脚本的实际路径。
 
 ```bash
-# /etc/systemd/system/my-startup.service
+# /etc/systemd/system/kcptun.service
 [Service]
 Type=oneshot
 RemainAfterExit=yes
