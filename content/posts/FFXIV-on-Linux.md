@@ -58,7 +58,7 @@ vim $HOME/kcptun/config.json
 "target": "127.0.0.1:2345",
 "key": "1234",
 "crypt": "salsa20",
-"mode": "fast2",
+"mode": "fast3",
 "mtu": 1400,
 "sndwnd": 2048,
 "rcvwnd": 2048,
