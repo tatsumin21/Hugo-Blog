@@ -23,11 +23,13 @@ Linux下跑FF14本不是个难事，很早之前Steam的Proton和Lutris就都能
 
 ！[KCPTUN](https://raw.githubusercontent.com/xtaci/kcptun/master/kcptun.png)
 
+
 ## 准备
 
 - 一台带宽尚可的Linux系统的VPS（理论上发行版不限，Ubuntu，Cent OS或其他熟悉的`x64`发行版都可）
 
 ## 安装及配置服务端
+
 ### KCPTUN Server Client
 
 远程登入VPS的shell后，在根目录下新建一个文件夹用来放`kcptun` 服务端，这里文件夹名就以`kcptun` 为例。
@@ -41,7 +43,7 @@ cd kcptun
 
 ```bash
 wget https://github.com/xtaci/kcptun/releases/download/v20210922/kcptun-linux-amd64-20210922.tar.gz
-tar -zxvf kcptun-linux-amd64-20171021.tar.gz
+tar -zxvf kcptun-linux-amd64-20210922.tar.gz
 vim $HOME/kcptun/config.json
 ```
 
