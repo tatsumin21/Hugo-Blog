@@ -79,7 +79,8 @@ DWM安装配置好后，状态栏默认是没有常见的时间音量等系统�
 
 在config.mk文件中添加：
 
-```YAJLLIBS = -lyajl
+```make
+YAJLLIBS = -lyajl
 YAJLINC = /usr/include/yajl
 
 # inlucdes and libs
