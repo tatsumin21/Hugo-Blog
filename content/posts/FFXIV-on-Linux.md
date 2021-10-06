@@ -23,6 +23,11 @@ Linux下跑FF14本不是个难事，很早之前Steam的Proton和Lutris就都能
 
 ![KCPTUN](https://raw.githubusercontent.com/xtaci/kcptun/master/kcptun.png)
 
+需要注意的是，FFXIV的流量是全部走TCP格式传输的，而KCPTUN正好是加速的TCP流量，因此这个方法具有可行性。
+
+而如果是其他游戏如PUBG(吃鸡)，只有游戏大厅内的传输流量是TCP,进入游戏开始对战后为UDP流量。而KCPTUN是不对UDP流量进行处理的，因此将不会有加速效果。
+
+所以请在准备使用此方法之前确认所需加速的流量的传输格式，以免做无用功。
 
 ## 准备
 
