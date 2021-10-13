@@ -25,7 +25,7 @@ tags:
 
 Your success is directly tied to distributor mind share
 
-### corruption and illegal activities
+### About Corruption and Illegal Activities
 check the legal issues of every aspect of international trade carefully.
 - Do not treat this as a joke or something to try to get around
 - Don't try to cheat, bribe or ship product to places that your government doesn't want you to.
@@ -38,7 +38,7 @@ check the legal issues of every aspect of international trade carefully.
 - Localization: Things can be believed in is products that are designed for multiple international market
   - example: software that works in different languages
 
-- Language is probably the **most relecant** change in a product.
+- Language is probably the **most relevant** change in a product.
 
 - second: addressing a funamental difference in electricity or plumbing or installation in different markets
   - make it easier for customers to by and incrementally increase sales.
