@@ -12,8 +12,6 @@ If you want to write me an encrypted email via PGP, feel free to download my PGP
 
 The fingerprint is: `AF31 F2B8 33F9 EAEB 7E22 2E82 0E0A 58BE 266B F66B`
 
-## SNS
 
-Or you can find me on the SNS (eg. Twitter, Github or Keybase) platform through the links on the homepage.
 
 
