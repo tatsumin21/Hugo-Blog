@@ -42,7 +42,7 @@ pygmentsCodefences       = true
 
 [[params.mainMenu]]
     link = "/about"
-    text = "who is sam?"
+    text = "who is tatsumi?"
 
 [imaging]
     quality = 75
