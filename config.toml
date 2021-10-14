@@ -39,18 +39,17 @@ pygmentsCodefences       = true
 #    link = "portfolio"
 #    text = "portfolio"
 [[params.mainMenu]]
-    link = "/contact"
-    text = "hello."
-
-[[params.mainMenu]]
-    link = "/about"
-    text = "i'm tatsumi."
-# [[params.mainMenu]]
-#     link = "/contact"
-#     text = ""
-[[params.mainMenu]]
     link = "/posts"
     text = "posts."
 
+[[params.mainMenu]]
+    link = "/about"
+    text = "about."
+# [[params.mainMenu]]
+#     link = "https://github.com/tatsumin21"
+#     text = "github."
+[[params.mainMenu]]
+    link = "/contact"
+    text = "email."
 [imaging]
     quality = 75
