@@ -2,6 +2,7 @@
 title: "Acer 宏碁XB273K 显示器解锁超频4K 144hz 10bit"
 date: 2021-09-19T01:52:32+01:00
 draft: false
+showDate: true
 toc: false
 images:
 tags:

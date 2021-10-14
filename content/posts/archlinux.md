@@ -2,6 +2,7 @@
 title: "Archlinux 及常用软件工具安装配置小记"
 date: 2020-10-24T22:31:22+02:00
 draft: false
+showDate: true
 toc: false
 images:
 tags:

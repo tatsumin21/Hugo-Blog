@@ -2,6 +2,7 @@
 title: "渋谷で出会ったサプライズーータイ料理研究所"
 date: 2019-11-17T21:28:46+02:00
 draft: false
+showDate: true
 toc: false
 images:
 tags:

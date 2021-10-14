@@ -2,6 +2,7 @@
 title: "Reading Notes: Global Sales-01"
 date: 2021-10-13T10:09:03+02:00
 draft: false
+showDate: true
 toc: false
 images:
 tags:

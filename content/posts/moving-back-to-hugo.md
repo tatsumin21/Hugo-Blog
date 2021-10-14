@@ -2,6 +2,7 @@
 title: "博客迁移回Hugo以及域名更改"
 date: 2021-09-28T23:51:32+02:00
 draft: false
+showDate: true
 toc: false
 images:
 tags:
