@@ -20,7 +20,8 @@ pygmentsCodefences       = true
     images               = ["tn.png"]                       # Image that shows on Twitter cards and Open Graph links to the site
     title                = "Call me Sam"
     # rss                = ""
-
+[params]
+  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 # [[params.videoBackground.sources]]
 #     source  = "/sample_video.mp4"
 #     type    = "video/mp4"
@@ -45,6 +46,9 @@ pygmentsCodefences       = true
     text = "who is tatsumi?"
 [[params.mainMenu]]
     link = "/contact"
-    text = "find me?"
+    text = "write an email"
+[[params.mainMenu]]
+    link = "/social"
+    text = "or somewhere else"
 [imaging]
     quality = 75

@@ -46,4 +46,4 @@ Linux用的挺顺，但最多写个几行的Bash脚本，看懂各类CUI软件�
 | Title						| Author 					|
 |-----------------------------------------------|-----------------------------------------------|
 | Global Sales					| Zach Selch 					|
-| Betriebssysteme und Verteilte Systeme(Script)	| Prof. Dr. Christian Siemers(TU Claustahl)	|
+| Betriebssysteme und Verteilte Systeme(Script)	| Prof. Dr. Christian Siemers(TU Clausthal)	|
