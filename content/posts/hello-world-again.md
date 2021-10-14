@@ -3,8 +3,6 @@ title: "Hello, World! Again!"
 date: 2020-07-24T21:43:45+02:00
 draft: false
 showDate: true
-toc: false
-images:
 tags:
   - Thoughts
 ---
