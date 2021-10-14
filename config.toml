@@ -50,7 +50,7 @@ pygmentsCodefences       = true
 #     text = ""
 [[params.mainMenu]]
     link = "/posts"
-    text = "posts"
+    text = "posts."
 
 [imaging]
     quality = 75
