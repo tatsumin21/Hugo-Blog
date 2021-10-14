@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+
+<title>
+    博客迁移回Hugo以及域名更改 - Tatsumi 巽
+</title>
+
+
+<link rel="shortcut icon" href="/sam.ico">
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.min.c5514d3530979d291f3497facc20da1cec870028dbc2a3630b64bab8721bbe49.css" integrity="sha256-xVFNNTCXnSkfNJf6zCDaHOyHACjbwqNjC2S6uHIbvkk=" crossorigin="anonymous" media="screen">
+
+
+
+
+  
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://tatsumin.dev/tn.png"/>
+
+<meta name="twitter:title" content="博客迁移回Hugo以及域名更改"/>
+<meta name="twitter:description" content="Moving back to Hugo&nbsp;¶ 是的，我的博客又又又又搬家了。
+不过这回倒是没有过多折腾，而是迁移回到了老朋友Hugo来。大致原因以下几点：
+ Windows Terminal的使用体验改善了不少， 微软的WSL项目已经更新到了WSL2，windows上也能很平滑无障碍地安装并使用Linux内核系统的环境和Shell， 通过Netlify免费服务能实现自动生成并部署网页，能够省掉每次生成部署的麻烦，用Git来管理，并存放在github上也能在更换设备后通过简单的 git pull 直接拉下来然后接着写，不用担心备份的问题。 能省掉一份租VPS的钱！  其实吧，还有一个原因是，我果然还是更喜欢这种简单的静态网页。
+早前折腾博客总是到最后没更新多少就直接杀掉了，多半是因为静态网页生产在需要在本地搭建环境生成然后部署。我想玩游戏就必须得用回Windows，然而 Windows 下各种环境搭建麻烦不说，Powershell一直以来也不是那么好用，因此便总是更新几篇就没然后了。
+前段时间久违地翻腾了不少人的博客后发现了Netlify自动部署这么个好东西，本地只需要写就好，而就算Powershell再难用，也就是用个Git而已。
+于是我就又回来啦！
+新域名&nbsp;¶ 首先，其实本来是想用 tatsumi.dev 的，但是搜索的时候发现已经被占用了，于是就根据日语的习惯取了tatsumin这个读法。
+大概类似昵称的感觉吧。
+至于tatsumi，汉字是巽。巽卦为风。
+其实没有太多深层含义，纯粹是我想换网名了。虽然严格来说是只换了一半，Noris和Norihiro依旧在很多平台上都用着。
+至于域名，选择了 .dev 而不是 .com，是因为 dev 域名默认开启了 HSTS (HTTP Strict Transport Security) 并因此拥有更高的安全性。同时我也在DNS服务中开启了 DNSSEC。
+ 网站的 HSTS Preload 状况可以在这里检查：hstspreload.org/  还是那句老话，虽然只是个没什么人来看的小破站，但我仍然希望能在我的知识和能力范围内提高它的隐私保护和安全性。
+其他碎碎念&nbsp;¶ 评论暂时没折腾。Disqus的安全性存疑，其他实现我还得再查查看Netlify上能不能跑。
+先这样吧。"/>
+
+<meta property="og:title" content="博客迁移回Hugo以及域名更改" />
+<meta property="og:description" content="Moving back to Hugo&nbsp;¶ 是的，我的博客又又又又搬家了。
+不过这回倒是没有过多折腾，而是迁移回到了老朋友Hugo来。大致原因以下几点：
+ Windows Terminal的使用体验改善了不少， 微软的WSL项目已经更新到了WSL2，windows上也能很平滑无障碍地安装并使用Linux内核系统的环境和Shell， 通过Netlify免费服务能实现自动生成并部署网页，能够省掉每次生成部署的麻烦，用Git来管理，并存放在github上也能在更换设备后通过简单的 git pull 直接拉下来然后接着写，不用担心备份的问题。 能省掉一份租VPS的钱！  其实吧，还有一个原因是，我果然还是更喜欢这种简单的静态网页。
+早前折腾博客总是到最后没更新多少就直接杀掉了，多半是因为静态网页生产在需要在本地搭建环境生成然后部署。我想玩游戏就必须得用回Windows，然而 Windows 下各种环境搭建麻烦不说，Powershell一直以来也不是那么好用，因此便总是更新几篇就没然后了。
+前段时间久违地翻腾了不少人的博客后发现了Netlify自动部署这么个好东西，本地只需要写就好，而就算Powershell再难用，也就是用个Git而已。
+于是我就又回来啦！
+新域名&nbsp;¶ 首先，其实本来是想用 tatsumi.dev 的，但是搜索的时候发现已经被占用了，于是就根据日语的习惯取了tatsumin这个读法。
+大概类似昵称的感觉吧。
+至于tatsumi，汉字是巽。巽卦为风。
+其实没有太多深层含义，纯粹是我想换网名了。虽然严格来说是只换了一半，Noris和Norihiro依旧在很多平台上都用着。
+至于域名，选择了 .dev 而不是 .com，是因为 dev 域名默认开启了 HSTS (HTTP Strict Transport Security) 并因此拥有更高的安全性。同时我也在DNS服务中开启了 DNSSEC。
+ 网站的 HSTS Preload 状况可以在这里检查：hstspreload.org/  还是那句老话，虽然只是个没什么人来看的小破站，但我仍然希望能在我的知识和能力范围内提高它的隐私保护和安全性。
+其他碎碎念&nbsp;¶ 评论暂时没折腾。Disqus的安全性存疑，其他实现我还得再查查看Netlify上能不能跑。
+先这样吧。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://tatsumin.dev/posts/moving-back-to-hugo/" /><meta property="og:image" content="https://tatsumin.dev/tn.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-09-28T23:51:32+02:00" />
+<meta property="article:modified_time" content="2021-09-28T23:51:32+02:00" /><meta property="og:site_name" content="Call me Sam" />
+
+
+
+    
+
+    
+    
+    
+    <title>
+        
+        博客迁移回Hugo以及域名更改
+        
+    </title>
+</head>
+
+<body>
+    
+    
+    <header class="wrap flex-container">
+        <h1>博客迁移回Hugo以及域名更改</h1>
+    </header>
+    
+    <main class="wrap">
+        
+<div class="flex-container">
+    <aside role="complementary">
+        Tue Sep 28, 2021 &#183; 48 words
+        <div class="tag-container">
+            
+            
+            <span class="tag">
+                <a href="/tags/thoughts/">
+                    Thoughts
+                </a>
+            </span>
+            
+            
+        </div>
+    </aside>
+    <hr />
+    <article role="article">
+        
+<h2 id="moving-back-to-hugo" class="anchor-link"><a href="#moving-back-to-hugo">Moving back to Hugo<span class="pilcrow">&nbsp;¶</span></a></h2>
+<p>是的，我的博客又又又又搬家了。</p>
+<p>不过这回倒是没有过多折腾，而是迁移回到了老朋友Hugo来。大致原因以下几点：</p>
+<ol>
+<li>Windows Terminal的使用体验改善了不少，</li>
+<li>微软的WSL项目已经更新到了WSL2，windows上也能很平滑无障碍地安装并使用Linux内核系统的环境和Shell，</li>
+<li>通过Netlify免费服务能实现自动生成并部署网页，能够省掉每次生成部署的麻烦，用Git来管理，并存放在github上也能在更换设备后通过简单的 <code>git pull</code> 直接拉下来然后接着写，不用担心备份的问题。</li>
+<li>能省掉一份租VPS的钱！</li>
+</ol>
+<p>其实吧，还有一个原因是，我果然还是更喜欢这种简单的静态网页。</p>
+<p>早前折腾博客总是到最后没更新多少就直接杀掉了，多半是因为静态网页生产在需要在本地搭建环境生成然后部署。我想玩游戏就必须得用回Windows，然而 Windows 下各种环境搭建麻烦不说，Powershell一直以来也不是那么好用，因此便总是更新几篇就没然后了。</p>
+<p>前段时间久违地翻腾了不少人的博客后发现了Netlify自动部署这么个好东西，本地只需要写就好，而就算Powershell再难用，也就是用个Git而已。</p>
+<p>于是我就又回来啦！</p>
+
+<h2 id="新域名" class="anchor-link"><a href="#%e6%96%b0%e5%9f%9f%e5%90%8d">新域名<span class="pilcrow">&nbsp;¶</span></a></h2>
+<p>首先，其实本来是想用 <code>tatsumi.dev</code> 的，但是搜索的时候发现已经被占用了，于是就根据日语的习惯取了tatsumin这个读法。</p>
+<p>大概类似昵称的感觉吧。</p>
+<p>至于tatsumi，汉字是巽。巽卦为风。</p>
+<p>其实没有太多深层含义，纯粹是我想换网名了。虽然严格来说是只换了一半，Noris和Norihiro依旧在很多平台上都用着。</p>
+<p>至于域名，选择了 <code>.dev</code> 而不是 <code>.com</code>，是因为 dev 域名默认开启了 <code>HSTS (HTTP Strict Transport Security)</code> 并因此拥有更高的安全性。同时我也在DNS服务中开启了 <code>DNSSEC</code>。</p>
+<ul>
+<li>网站的 <code>HSTS Preload</code> 状况可以在这里检查：<a href="https://hstspreload.org/">hstspreload.org/</a></li>
+</ul>
+<p>还是那句老话，虽然只是个没什么人来看的小破站，但我仍然希望能在我的知识和能力范围内提高它的隐私保护和安全性。</p>
+
+<h2 id="其他碎碎念" class="anchor-link"><a href="#%e5%85%b6%e4%bb%96%e7%a2%8e%e7%a2%8e%e5%bf%b5">其他碎碎念<span class="pilcrow">&nbsp;¶</span></a></h2>
+<p>评论暂时没折腾。Disqus的安全性存疑，其他实现我还得再查查看Netlify上能不能跑。</p>
+<p>先这样吧。</p>
+
+    </article>
+</div>
+
+
+        
+<nav role="navigation" class="flex-container bottom-menu">
+    
+<hr />
+<p>
+
+
+    
+        <a href="/posts">back</a>
+        
+            &#183;
+        
+    
+
+    
+        
+            <a href="/posts">posts</a>
+        
+    
+    
+        
+            &#183; 
+            <a href="/about">who is sam?</a>
+        
+    
+    
+    
+        &#183; 
+        <a href="/">
+            main
+        </a>
+    
+
+</p>
+</nav>
+
+    </main>
+    
+    <footer class="flex-container footer">Call me Sam, a theme for Hugo.
+</footer>
+    
+    
+</body>
+
+</html>

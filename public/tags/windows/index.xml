@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on Tatsumi 巽</title>
+    <link>https://tatsumin.dev/tags/windows/</link>
+    <description>Recent content in Windows on Tatsumi 巽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Sep 2021 22:00:55 +0200</lastBuildDate><atom:link href="https://tatsumin.dev/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows11 Insider Preview 试用小记</title>
+      <link>https://tatsumin.dev/posts/windows11-insider-preview/</link>
+      <pubDate>Thu, 09 Sep 2021 22:00:55 +0200</pubDate>
+      
+      <guid>https://tatsumin.dev/posts/windows11-insider-preview/</guid>
+      <description>由来&amp;nbsp;¶ Win11系统镜像泄露已经好几个月了。我最早是在7月中旬的时候无意中看到的消息。先不提早几年Win10 刚出的时候那句：
+Win10将会是 Windows 最后一个大版本。
+就算是出新系统，这个时间也比我预想的要早了不少。不过最近并没有特别关注计算机方面的专业新闻了，也许仅仅是我没跟上节奏而已。
+虽然因为不能愉快的玩最新的游戏而几乎放弃了 Linux 作为主力操作系统，但许是骨子里的不安分因素仍旧存活着，在微软仅开放了 Windows11 Insider Preview 的 Dev Channel（开发者通道）的那段时间里几度差点就直接冲了上去。好在早些年折腾Linux留下的教训总算是没丢。忍了又忍，最后在Beta Channel 开放后才加入 Insider Preview 计划将系统更新至了 Win11。
+目前正在使用的是 Win11 操作系统版本为:
+Version	21H2 Installed on	‎03/‎09/‎2021 OS build	22000.176 Experience	Windows Feature Experience Pack 1000.22000.176.0  更新&amp;nbsp;¶ 账号加入 Insider Programme 后检查一下系统更新，等它自己下载安装然后重启就完成了从 Win10 到 Win11 Insider Preview 的更新。如果我的记忆没出差错的话，当年Win10 的 Insider Preview 是需要单独下载一个更新程序的。这一点上倒是省事了不少。
+因为是无缝升级，因此各个驱动和软件都好好的在那，不需要重新下载安装。
+日常使用&amp;nbsp;¶ 由于 Win11 的系统内核仍和 Win10 一致，因此很多东西与 Win10 并没有太多本质性的差别。就我目前待业在家这段时间常用的软件来说:
+ Microsoft Office 套件， Brave 浏览器， Steam， Discord，以及每天都会玩的 Final Fantasy XIV Online  这一个多月之中还没有出现过闪退或者程序崩溃等情况。使用体验和原来的 Win10 几乎没有差异。</description>
+    </item>
+    
+  </channel>
+</rss>

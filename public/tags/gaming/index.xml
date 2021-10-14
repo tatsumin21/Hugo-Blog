@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gaming on Tatsumi 巽</title>
+    <link>https://tatsumin.dev/tags/gaming/</link>
+    <description>Recent content in Gaming on Tatsumi 巽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Oct 2021 19:52:52 +0200</lastBuildDate><atom:link href="https://tatsumin.dev/tags/gaming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>通过KCPTUN 和 Shadowsocks 给 Linux 下的网游加速</title>
+      <link>https://tatsumin.dev/posts/ffxiv-on-linux/</link>
+      <pubDate>Mon, 04 Oct 2021 19:52:52 +0200</pubDate>
+      
+      <guid>https://tatsumin.dev/posts/ffxiv-on-linux/</guid>
+      <description>前言&amp;nbsp;¶ 来来回回在Win和ArchLinux之间换了好几次，最终还是下定决心回到Linux怀抱，毕竟我目前的日常需求除了游戏几乎也没有什么一定要用到Win的地方，而游戏目前又几乎只在玩FF14。
+Linux下跑FF14本不是个难事，很早之前Steam的Proton和Lutris就都能做到这一点了。但我的需求稍微有些特殊：
+ 我人在欧洲，但我的FF14角色在日服。而Linux下几乎没有像Win下那样的游戏专用加速器。
+ 于是在换回ArchLinux并配置好基本的桌面及软件后，便开始想办法寻找Linux下给网游加速降低延迟的方法。经过搜索后决定试试Kcptun 和 Shadowsocks。
+kcptun 加速流量的原理根据Github上的介绍，如下图所示：
+需要注意的是，FFXIV的流量是全部走TCP格式传输的，而KCPTUN正好是加速的TCP流量，因此这个方法具有可行性。
+而如果是其他游戏如PUBG(吃鸡)，只有游戏大厅内的传输流量是TCP,进入游戏开始对战后为UDP流量。而KCPTUN是不对UDP流量进行处理的，因此将不会有加速效果。
+所以请在准备使用此方法之前确认所需加速的流量的传输格式，以免做无用功。
+准备&amp;nbsp;¶  一台带宽尚可的Linux系统的VPS（理论上发行版不限，Ubuntu，Cent OS或其他熟悉的x64发行版都可）  安装及配置服务端&amp;nbsp;¶ KCPTUN Server Client&amp;nbsp;¶ 远程登入VPS的shell后，在根目录下新建一个文件夹用来放kcptun 服务端，这里文件夹名就以kcptun 为例。
+mkdir kcptun cd kcptun 然后下载Github Release 页面上最新的.tar.gz 压缩包，解压缩并新建一个服务端的配置文件。 这边配置文件以 config.json 命名。
+wget https://github.com/xtaci/kcptun/releases/download/v20210922/kcptun-linux-amd64-20210922.tar.gz tar -zxvf kcptun-linux-amd64-20210922.tar.gz vim $HOME/kcptun/config.json 这边压缩包的名称里的amd64便是x64 Linux系统用，如果是其他系统作为服务端，请根据系统选择对应的包。 后面的日期会根据作者维护更新有所不同，这里及后文都请注意更改，请勿照搬。
+然后在配置文件里写入如下内容：
+{ &amp;#34;listen&amp;#34;: &amp;#34;:6666&amp;#34;, &amp;#34;target&amp;#34;: &amp;#34;127.0.0.1:2345&amp;#34;, &amp;#34;key&amp;#34;: &amp;#34;1234&amp;#34;, &amp;#34;crypt&amp;#34;: &amp;#34;salsa20&amp;#34;, &amp;#34;mode&amp;#34;: &amp;#34;fast3&amp;#34;, &amp;#34;mtu&amp;#34;: 1400, &amp;#34;sndwnd&amp;#34;: 2048, &amp;#34;rcvwnd&amp;#34;: 2048, &amp;#34;datashard&amp;#34;: 70, &amp;#34;parityshard&amp;#34;: 30, &amp;#34;dscp&amp;#34;: 46, &amp;#34;nocomp&amp;#34;: false, &amp;#34;acknodelay&amp;#34;: false, &amp;#34;nodelay&amp;#34;: 0, &amp;#34;interval&amp;#34;: 40, &amp;#34;resend&amp;#34;: 0, &amp;#34;nc&amp;#34;: 0, &amp;#34;sockbuf&amp;#34;: 4194304, &amp;#34;keepalive&amp;#34;: 10 }  listen是Kcptun监听的端口，也就是Kcptun的服务端口，这里可以自行修改。 target是你准备加速的端口，因为我们是要给ss加速，所以这里一定要填写你的ss端口号，这里以2345为例。 key是通讯密钥，请修改为你自己的。 crypt是加密方式，默认是salsa20，同时还支持aes, aes-128, aes-192, salsa20, blowfish, twofish, cast5, 3des, tea, xtea, xor, none。可以自行修改。 mode是传输模式，这里建议使用fast3。 sndwnd以及rcvwnd是你的本地带宽速度。我的本地宽带是Telekom 200M，这里就填写2048。也请根据自身情况更改。 其他的一些参数可以保持原样，当然也可根据需求更改。  然后查看一下文件夹里目前所有的文件，应当包含 client_linux_amd64 和 server_linux_amd64 这两个。</description>
+    </item>
+    
+    <item>
+      <title>海外ゲーミンングPingを改善しよーMudfish</title>
+      <link>https://tatsumin.dev/posts/game-accelerator-mudfish/</link>
+      <pubDate>Thu, 04 Oct 2018 20:44:00 +0200</pubDate>
+      
+      <guid>https://tatsumin.dev/posts/game-accelerator-mudfish/</guid>
+      <description>はじめに&amp;nbsp;¶ こんにちは。
+今ドイツ在住なんですけど、FF14はずっと日本鯖（サーバ）でやってます。それでPingは当たり前で高いですし、時々パケッジロストも発生します。 それでVPN探すのを決めました、判断基準は以下二つです：
+ Pingは200以下 学生なので料金は負担できる範囲以内 その上で、Mudfishというサービスを選びました。  公式ベージはこちら → Mudfish
+特徴&amp;nbsp;¶ データ従量制&amp;nbsp;¶ Mudfishはデータ従量制です。チャージ最低線の2.99 USDで約24GBの通信が使えます。僕は7月3日で2.99 USDをチャージして、今日10月3日まではまだ2.56 USD残っています。最近ゲームインじかんすくないですけど、重度使用しても3ヵ月間以上は絶対足りると思います。
+また、有効期限がないので、1年間休止してまだ再開できます。
+大量なサポートされているゲーム&amp;nbsp;¶ ホームページでも見えますが、FF14だけじゃなく、今Mudfishは約300以上のゲームサポートしています。
+ここからは、FF14を例として登録方法からゲームスタートまで詳しく説明します。
+アカウント登録とクライアントのダウンロード&amp;nbsp;¶ ホームページの右上からメールアドレス、ユーザー名、パスワードを入力してアカウント登録します。
+そしてホームページの左上、左から二番目のアイコンはダウンロードです。
+クリックしたら、このページになります。
+自分が使ってるシステムによってダウンロードしてください。
+Win10なら64bitで。Win11今はまだInsider Previewバージョンですが、問題なく使えます。
+Linux用のもありますが、Q＆Aでの答えにより、現在はUbuntuでだけ問題なく使えます、他Distroでは(例えばArch Linuxとか)保証しません。
+Mudfishを起動&amp;nbsp;¶ スタートからMudFishランチャーを起動します。
+（ドイツ語のシステムですみません。）
+Mudfishちゃんと起動するために、管理者（Administrator）権限必須です。
+通常実行だと管理者権限が必要な旨のエラーが出ますので、ぜひ。
+ログインしたら、画面は大体こうなります。 通信量のチャージ&amp;nbsp;¶ メニューのCredit → Buyから通信量を購入します。
+お好きな額を購入ください。支払いにPaypalが必要です。
+ゲームの設定&amp;nbsp;¶ Item → Equip item
+そうしたらゲームのリストに入ります。FF14なら、ページの最後にスクロールするとあります。
+次はサーバとノードの設定です。
+まず自分のキャラがいるさーばをえらびましょう。 ノードなら、右のルーペで、各ノードのPing（ここはScore）と安定性が見えます。
+自分の状況によって選びましょう。
+選ぶのは、したいサーバの名前を覚えて、前のページで選びます。
+FastConnect Mode&amp;nbsp;¶ 設定の最後はFastConnect Modeをオンにすることです。
+メニューのSetup → Programに入って、ページ最後のFastConnect ModeをOnに変えって、SAVE。
+もう一回Mudfishを起動して、Windowsのネットワークの切り替わるノーティフィケーションが出たらYESにしてください。
+ダッシュボードの一番上で100％になったらOKです。
+今後はゲームスタート前にMudfishを起動すれば低いPingでゲームを楽しめます。
+最後&amp;nbsp;¶ もちろん、いろんなゲームでも、日本から海外のゲームでもMudfish使えます。
+設定する方法は大体似ていますが、また困るところはMudfishのドキュメント（英語）をチェックしてください。
+Mudfish Docs</description>
+    </item>
+    
+  </channel>
+</rss>

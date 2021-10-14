@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thoughts on Tatsumi 巽</title>
+    <link>https://tatsumin.dev/tags/thoughts/</link>
+    <description>Recent content in Thoughts on Tatsumi 巽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Sep 2021 23:51:32 +0200</lastBuildDate><atom:link href="https://tatsumin.dev/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>博客迁移回Hugo以及域名更改</title>
+      <link>https://tatsumin.dev/posts/moving-back-to-hugo/</link>
+      <pubDate>Tue, 28 Sep 2021 23:51:32 +0200</pubDate>
+      
+      <guid>https://tatsumin.dev/posts/moving-back-to-hugo/</guid>
+      <description>Moving back to Hugo&amp;nbsp;¶ 是的，我的博客又又又又搬家了。
+不过这回倒是没有过多折腾，而是迁移回到了老朋友Hugo来。大致原因以下几点：
+ Windows Terminal的使用体验改善了不少， 微软的WSL项目已经更新到了WSL2，windows上也能很平滑无障碍地安装并使用Linux内核系统的环境和Shell， 通过Netlify免费服务能实现自动生成并部署网页，能够省掉每次生成部署的麻烦，用Git来管理，并存放在github上也能在更换设备后通过简单的 git pull 直接拉下来然后接着写，不用担心备份的问题。 能省掉一份租VPS的钱！  其实吧，还有一个原因是，我果然还是更喜欢这种简单的静态网页。
+早前折腾博客总是到最后没更新多少就直接杀掉了，多半是因为静态网页生产在需要在本地搭建环境生成然后部署。我想玩游戏就必须得用回Windows，然而 Windows 下各种环境搭建麻烦不说，Powershell一直以来也不是那么好用，因此便总是更新几篇就没然后了。
+前段时间久违地翻腾了不少人的博客后发现了Netlify自动部署这么个好东西，本地只需要写就好，而就算Powershell再难用，也就是用个Git而已。
+于是我就又回来啦！
+新域名&amp;nbsp;¶ 首先，其实本来是想用 tatsumi.dev 的，但是搜索的时候发现已经被占用了，于是就根据日语的习惯取了tatsumin这个读法。
+大概类似昵称的感觉吧。
+至于tatsumi，汉字是巽。巽卦为风。
+其实没有太多深层含义，纯粹是我想换网名了。虽然严格来说是只换了一半，Noris和Norihiro依旧在很多平台上都用着。
+至于域名，选择了 .dev 而不是 .com，是因为 dev 域名默认开启了 HSTS (HTTP Strict Transport Security) 并因此拥有更高的安全性。同时我也在DNS服务中开启了 DNSSEC。
+ 网站的 HSTS Preload 状况可以在这里检查：hstspreload.org/  还是那句老话，虽然只是个没什么人来看的小破站，但我仍然希望能在我的知识和能力范围内提高它的隐私保护和安全性。
+其他碎碎念&amp;nbsp;¶ 评论暂时没折腾。Disqus的安全性存疑，其他实现我还得再查查看Netlify上能不能跑。
+先这样吧。</description>
+    </item>
+    
+    <item>
+      <title>Hello, World! Again!</title>
+      <link>https://tatsumin.dev/posts/hello-world-again/</link>
+      <pubDate>Fri, 24 Jul 2020 21:43:45 +0200</pubDate>
+      
+      <guid>https://tatsumin.dev/posts/hello-world-again/</guid>
+      <description>诞生前&amp;nbsp;¶ 契机&amp;nbsp;¶ 先提一句标题吧，标题其实是突发奇想来的。
+&amp;ldquo;Hello World!&amp;rdquo; 自是不用过多解释，加了个Again 是因为这并不是我自己搭建的第一个独立博客了，便索性以此表达。
+回到正题。
+其实我已经有将近一年没写过博客了。而原本其实也并没有了再折腾一个新博客的打算。最终会有这个小地方的诞生还要回溯到几个月前的简体中文SNS各个平台的过度自我审查。新浪微博和网易Lofter对用户尤其是创作者们一再下屠刀，导致了以这两大平台用户为主的简体中文创作者们的集体出走。而我也算是其中一员。
+其中很多人选择了长毛象 (Mastodon) 作为微博的替代品，而Lofter上的创作者们却被冲散到了各个不同地方。从近几年看过来，相似的历史一再重演。墙内的任何平台都已经不具有可信任度，被勒令审查自我阉割几乎可以说是必然的结局——不论它目前有多自由。因此选择的范围便一下缩小到了仅剩AO3 (Archive of Our Own) 或是自建。
+而AO3并不能满足个人思考和学习内容的承载，加上因为今年2月闹得沸沸扬扬的事，早已被一墙隔在了大部分简体中文创作者和阅读者们的视线之外。 层层考虑下来，便又有了再建博客的想法。
+选择与准备&amp;nbsp;¶ 最开始自建独立博客已经是5年前多的事情了。从最开始的静态博客Hexo，到后来的基于Go语言的Hugo，虽然在这个折腾过程中学到了不少关于自建站点相关的VPS，Linux以及CLI等各种相关知识，但细细回顾思考起来，我在静态博客上花费了过多的时间在选择框架，折腾主题等事情上，真正写作却因为频繁更换日常操作系统（从Mac OS到Arch Linux，再到Win10）而搁浅。因此这次再次决定建博客的时候便把“能够专注于内容”提到了最重要的位置上。故而选择范围便直接来到Ghost和WordPress这两大家上。
+然而在这个二选一的过程中我又犯了难。 WordPress更老牌，不论可选主题也好社区也好可定制性也好，都高过Ghost。但缺点同样来自于它的历史悠久：发展到现在已经过于臃肿。
+Ghost相对WordPress来说更年轻，基于Node.js也使得它相对来说更为轻便快速。但同样随之而来的是可定制性等的降低。在决定选择Ghost之前，我甚至花了一整天的时间来找Ghost让我满意的，可免费使用的主题。
+但这次的目标是专注于记录并坚持下去。突然再次意识到这一点后，便毅然决定了不再纠结，就用Ghost：至于主题，简洁不难看便好。如果实在不够满意，等积累到足够的计算机语言知识后再自己改编就好。
+诞生过程&amp;nbsp;¶ VPS和环境搭建&amp;nbsp;¶ 因为“专注于记录和内容”的目标，使得搭建的过程同样被极度简化。
+经过价格性能等的简单衡量，我选择了DigitalOcean的VPS，并直接使用了其中Marketplace里的Ghost一键安装服务。从依赖环境到Ghost后端等一系列操作都在VPS建立完成后被自动完成。所需要的操作只剩下输入几个基本配置所需的域名和建立SSL验证用邮箱等操作。
+域名&amp;nbsp;¶ 因为之前也建过好几次个人独立博客了，因此域名提供商便直接选择了一直用的Namecheap。倒是在域名本身的选择上犯了难。
+Holm 出自古斯堪的纳维亚语，意为 &amp;ldquo;a small and rounded islet&amp;rdquo;，即“一个小而圆形的小岛”。而Nori便是我自己，&amp;ldquo;s&amp;rdquo; 作为连接词。因此这个域名简单来说便是“Nori的小岛”的意思。
+它是仅属于我自己的一个小小地盘。
+DNS解析服务我选择了Cloudflare，来进行从浏览器到Cloudflare解析再到服务器的整个信息传输过程的全加密。或许它所能提供的安全性有限，但至少在我力所能及的范围内，我依旧注重在网络上将信息安全与隐私保护做到最大化。
+后记&amp;nbsp;¶ 最后剩下的便是一点主题配置了。基于北欧风格和小岛这个概念，在google上一番搜索之后，定下了现在的Banner和Icon。之后又在Ghost所提供的几个免费主题里挨个试了一遍后选择了Liebling这个主题。便成了现在这个样子。
+老实说，成品比我自己当初预想的要好很多，至少我自己是真的挺喜欢的。
+再然后就是按照Ghost和主题自身的Documentaion，给博客添加了Disqus评论功能。
+最后的最后，愿这是我最后一次折腾，而这个小岛永不沉没。</description>
+    </item>
+    
+  </channel>
+</rss>

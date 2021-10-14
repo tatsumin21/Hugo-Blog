@@ -1,16 +1,73 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://clever-lichterman-6bf717.netlify.app/en/sitemap.xml</loc>
-    
-      <lastmod>2021-09-17T01:12:44+02:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://clever-lichterman-6bf717.netlify.app/fr/sitemap.xml</loc>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://tatsumin.dev/tags/notes/</loc>
+    <lastmod>2021-10-13T10:09:03+02:00</lastmod>
+  </url><url>
+    <loc>https://tatsumin.dev/posts/</loc>
+    <lastmod>2021-10-13T10:09:03+02:00</lastmod>
+  </url><url>
+    <loc>https://tatsumin.dev/posts/reading-notes-global-sales-01/</loc>
+    <lastmod>2021-10-13T10:09:03+02:00</lastmod>
+  </url><url>
+    <loc>https://tatsumin.dev/tags/sales/</loc>
+    <lastmod>2021-10-13T10:09:03+02:00</lastmod>
+  </url><url>
+    <loc>https://tatsumin.dev/tags/</loc>
+    <lastmod>2021-10-13T10:09:03+02:00</lastmod>
+  </url><url>
+    <loc>https://tatsumin.dev/</loc>
+    <lastmod>2021-10-13T10:09:03+02:00</lastmod>
+  </url><url>
+    <loc>https://tatsumin.dev/contact/</loc>
+    <lastmod>2021-10-04T23:04:02+02:00</lastmod>
+  </url><url>
+    <loc>https://tatsumin.dev/tags/gaming/</loc>
+    <lastmod>2021-10-04T19:52:52+02:00</lastmod>
+  </url><url>
+    <loc>https://tatsumin.dev/tags/infotech/</loc>
+    <lastmod>2021-10-04T19:52:52+02:00</lastmod>
+  </url><url>
+    <loc>https://tatsumin.dev/tags/linux/</loc>
+    <lastmod>2021-10-04T19:52:52+02:00</lastmod>
+  </url><url>
+    <loc>https://tatsumin.dev/posts/ffxiv-on-linux/</loc>
+    <lastmod>2021-10-04T19:52:52+02:00</lastmod>
+  </url><url>
+    <loc>https://tatsumin.dev/about/</loc>
+    <lastmod>2021-09-29T13:48:09+02:00</lastmod>
+  </url><url>
+    <loc>https://tatsumin.dev/tags/thoughts/</loc>
+    <lastmod>2021-09-28T23:51:32+02:00</lastmod>
+  </url><url>
+    <loc>https://tatsumin.dev/posts/moving-back-to-hugo/</loc>
+    <lastmod>2021-09-28T23:51:32+02:00</lastmod>
+  </url><url>
+    <loc>https://tatsumin.dev/posts/acer-moniter-144hz/</loc>
+    <lastmod>2021-09-19T01:52:32+01:00</lastmod>
+  </url><url>
+    <loc>https://tatsumin.dev/tags/windows/</loc>
+    <lastmod>2021-09-09T22:00:55+02:00</lastmod>
+  </url><url>
+    <loc>https://tatsumin.dev/posts/windows11-insider-preview/</loc>
+    <lastmod>2021-09-09T22:00:55+02:00</lastmod>
+  </url><url>
+    <loc>https://tatsumin.dev/posts/archlinux/</loc>
+    <lastmod>2020-10-24T22:31:22+02:00</lastmod>
+  </url><url>
+    <loc>https://tatsumin.dev/posts/hello-world-again/</loc>
+    <lastmod>2020-07-24T21:43:45+02:00</lastmod>
+  </url><url>
+    <loc>https://tatsumin.dev/tags/life/</loc>
+    <lastmod>2019-11-17T21:28:46+02:00</lastmod>
+  </url><url>
+    <loc>https://tatsumin.dev/posts/thai-restaurant-in-shibuya/</loc>
+    <lastmod>2019-11-17T21:28:46+02:00</lastmod>
+  </url><url>
+    <loc>https://tatsumin.dev/posts/game-accelerator-mudfish/</loc>
+    <lastmod>2018-10-04T20:44:00+02:00</lastmod>
+  </url><url>
+    <loc>https://tatsumin.dev/categories/</loc>
+  </url>
+</urlset>
