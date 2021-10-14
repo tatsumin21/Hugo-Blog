@@ -43,6 +43,8 @@ pygmentsCodefences       = true
 [[params.mainMenu]]
     link = "/about"
     text = "who is tatsumi?"
-
+[[params.mainMenu]]
+    link = "/contact"
+    text = "find me?"
 [imaging]
     quality = 75
