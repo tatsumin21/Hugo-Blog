@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tatsumin.dev/tags/notes/</loc>
-    <lastmod>2021-10-13T10:09:03+02:00</lastmod>
+    <loc>https://tatsumin.dev/social/</loc>
+    <lastmod>2021-10-14T22:09:49+02:00</lastmod>
   </url><url>
     <loc>https://tatsumin.dev/posts/</loc>
+    <lastmod>2021-10-14T20:28:48+02:00</lastmod>
+  </url><url>
+    <loc>https://tatsumin.dev/</loc>
+    <lastmod>2021-10-14T20:28:48+02:00</lastmod>
+  </url><url>
+    <loc>https://tatsumin.dev/tags/notes/</loc>
     <lastmod>2021-10-13T10:09:03+02:00</lastmod>
   </url><url>
     <loc>https://tatsumin.dev/posts/reading-notes-global-sales-01/</loc>
@@ -15,9 +21,6 @@
     <lastmod>2021-10-13T10:09:03+02:00</lastmod>
   </url><url>
     <loc>https://tatsumin.dev/tags/</loc>
-    <lastmod>2021-10-13T10:09:03+02:00</lastmod>
-  </url><url>
-    <loc>https://tatsumin.dev/</loc>
     <lastmod>2021-10-13T10:09:03+02:00</lastmod>
   </url><url>
     <loc>https://tatsumin.dev/contact/</loc>

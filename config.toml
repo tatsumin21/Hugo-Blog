@@ -30,9 +30,6 @@ pygmentsCodefences       = true
 # [params.videoBackground]
 #     overlay = "rgba(0, 0, 0, 0.4)" # optional
 
-[[params.mainMenu]]
-    link = "/posts"
-    text = "posts"
 
 # [[params.mainMenu]]
 #     link = "gallery"
@@ -41,15 +38,19 @@ pygmentsCodefences       = true
 # [[params.mainMenu]]
 #    link = "portfolio"
 #    text = "portfolio"
+[[params.mainMenu]]
+    link = "/contact"
+    text = "hello."
 
 [[params.mainMenu]]
     link = "/about"
-    text = "who is tatsumi?"
+    text = "i'm tatsumi."
+# [[params.mainMenu]]
+#     link = "/contact"
+#     text = ""
 [[params.mainMenu]]
-    link = "/contact"
-    text = "write an email"
-[[params.mainMenu]]
-    link = "/social"
-    text = "or somewhere else"
+    link = "/posts"
+    text = "posts"
+
 [imaging]
     quality = 75

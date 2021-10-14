@@ -6,16 +6,16 @@
     <description>Recent content in Posts on Tatsumi 巽</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Oct 2021 10:09:03 +0200</lastBuildDate><atom:link href="https://tatsumin.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Oct 2021 20:28:48 +0200</lastBuildDate><atom:link href="https://tatsumin.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reading Notes: Global Sales-01</title>
       <link>https://tatsumin.dev/posts/reading-notes-global-sales-01/</link>
       <pubDate>Wed, 13 Oct 2021 10:09:03 +0200</pubDate>
       
       <guid>https://tatsumin.dev/posts/reading-notes-global-sales-01/</guid>
-      <description>Basic Concepts   Differences between international &amp;amp; domestic sales
+      <description>Basic Concepts&amp;nbsp;¶   Differences between international &amp;amp; domestic sales
  existing relationship of trust (must be established) demands and workflow of customers the process of internal information    the more skilled, motivated and trained people that are selling your product, the more you will sell.
-  Forece Multiplication  Global distribution agreement Distributors Manufacturer&amp;rsquo;s representatives Consultants  Your success is directly tied to distributor mind share</description>
+  Forece Multiplication&amp;nbsp;¶  Global distribution agreement Distributors Manufacturer&amp;rsquo;s representatives Consultants  Your success is directly tied to distributor mind share</description>
     </item>
     
     <item>
@@ -24,7 +24,7 @@
       <pubDate>Mon, 04 Oct 2021 19:52:52 +0200</pubDate>
       
       <guid>https://tatsumin.dev/posts/ffxiv-on-linux/</guid>
-      <description>前言 来来回回在Win和ArchLinux之间换了好几次，最终还是下定决心回到Linux怀抱，毕竟我目前的日常需求除了游戏几乎也没有什么一定要用到Win的地方，而游戏目前又几乎只在玩FF14。
+      <description>前言&amp;nbsp;¶ 来来回回在Win和ArchLinux之间换了好几次，最终还是下定决心回到Linux怀抱，毕竟我目前的日常需求除了游戏几乎也没有什么一定要用到Win的地方，而游戏目前又几乎只在玩FF14。
 Linux下跑FF14本不是个难事，很早之前Steam的Proton和Lutris就都能做到这一点了。但我的需求稍微有些特殊：
  我人在欧洲，但我的FF14角色在日服。而Linux下几乎没有像Win下那样的游戏专用加速器。
  于是在换回ArchLinux并配置好基本的桌面及软件后，便开始想办法寻找Linux下给网游加速降低延迟的方法。经过搜索后决定试试Kcptun 和 Shadowsocks。
@@ -32,7 +32,7 @@ kcptun 加速流量的原理根据Github上的介绍，如下图所示：
 需要注意的是，FFXIV的流量是全部走TCP格式传输的，而KCPTUN正好是加速的TCP流量，因此这个方法具有可行性。
 而如果是其他游戏如PUBG(吃鸡)，只有游戏大厅内的传输流量是TCP,进入游戏开始对战后为UDP流量。而KCPTUN是不对UDP流量进行处理的，因此将不会有加速效果。
 所以请在准备使用此方法之前确认所需加速的流量的传输格式，以免做无用功。
-准备  一台带宽尚可的Linux系统的VPS（理论上发行版不限，Ubuntu，Cent OS或其他熟悉的x64发行版都可）  安装及配置服务端 KCPTUN Server Client 远程登入VPS的shell后，在根目录下新建一个文件夹用来放kcptun 服务端，这里文件夹名就以kcptun 为例。
+准备&amp;nbsp;¶  一台带宽尚可的Linux系统的VPS（理论上发行版不限，Ubuntu，Cent OS或其他熟悉的x64发行版都可）  安装及配置服务端&amp;nbsp;¶ KCPTUN Server Client&amp;nbsp;¶ 远程登入VPS的shell后，在根目录下新建一个文件夹用来放kcptun 服务端，这里文件夹名就以kcptun 为例。
 mkdir kcptun cd kcptun 然后下载Github Release 页面上最新的.tar.gz 压缩包，解压缩并新建一个服务端的配置文件。 这边配置文件以 config.json 命名。
 wget https://github.com/xtaci/kcptun/releases/download/v20210922/kcptun-linux-amd64-20210922.tar.gz tar -zxvf kcptun-linux-amd64-20210922.tar.gz vim $HOME/kcptun/config.json 这边压缩包的名称里的amd64便是x64 Linux系统用，如果是其他系统作为服务端，请根据系统选择对应的包。 后面的日期会根据作者维护更新有所不同，这里及后文都请注意更改，请勿照搬。
 然后在配置文件里写入如下内容：
@@ -45,19 +45,19 @@ wget https://github.com/xtaci/kcptun/releases/download/v20210922/kcptun-linux-am
       <pubDate>Tue, 28 Sep 2021 23:51:32 +0200</pubDate>
       
       <guid>https://tatsumin.dev/posts/moving-back-to-hugo/</guid>
-      <description>Moving back to Hugo 是的，我的博客又又又又搬家了。
+      <description>Moving back to Hugo&amp;nbsp;¶ 是的，我的博客又又又又搬家了。
 不过这回倒是没有过多折腾，而是迁移回到了老朋友Hugo来。大致原因以下几点：
  Windows Terminal的使用体验改善了不少， 微软的WSL项目已经更新到了WSL2，windows上也能很平滑无障碍地安装并使用Linux内核系统的环境和Shell， 通过Netlify免费服务能实现自动生成并部署网页，能够省掉每次生成部署的麻烦，用Git来管理，并存放在github上也能在更换设备后通过简单的 git pull 直接拉下来然后接着写，不用担心备份的问题。 能省掉一份租VPS的钱！  其实吧，还有一个原因是，我果然还是更喜欢这种简单的静态网页。
 早前折腾博客总是到最后没更新多少就直接杀掉了，多半是因为静态网页生产在需要在本地搭建环境生成然后部署。我想玩游戏就必须得用回Windows，然而 Windows 下各种环境搭建麻烦不说，Powershell一直以来也不是那么好用，因此便总是更新几篇就没然后了。
 前段时间久违地翻腾了不少人的博客后发现了Netlify自动部署这么个好东西，本地只需要写就好，而就算Powershell再难用，也就是用个Git而已。
 于是我就又回来啦！
-新域名 首先，其实本来是想用 tatsumi.dev 的，但是搜索的时候发现已经被占用了，于是就根据日语的习惯取了tatsumin这个读法。
+新域名&amp;nbsp;¶ 首先，其实本来是想用 tatsumi.dev 的，但是搜索的时候发现已经被占用了，于是就根据日语的习惯取了tatsumin这个读法。
 大概类似昵称的感觉吧。
 至于tatsumi，汉字是巽。巽卦为风。
 其实没有太多深层含义，纯粹是我想换网名了。虽然严格来说是只换了一半，Noris和Norihiro依旧在很多平台上都用着。
 至于域名，选择了 .dev 而不是 .com，是因为 dev 域名默认开启了 HSTS (HTTP Strict Transport Security) 并因此拥有更高的安全性。同时我也在DNS服务中开启了 DNSSEC。
  网站的 HSTS Preload 状况可以在这里检查：hstspreload.org/  还是那句老话，虽然只是个没什么人来看的小破站，但我仍然希望能在我的知识和能力范围内提高它的隐私保护和安全性。
-其他碎碎念 评论暂时没折腾。Disqus的安全性存疑，其他实现我还得再查查看Netlify上能不能跑。
+其他碎碎念&amp;nbsp;¶ 评论暂时没折腾。Disqus的安全性存疑，其他实现我还得再查查看Netlify上能不能跑。
 先这样吧。</description>
     </item>
     
@@ -67,9 +67,9 @@ wget https://github.com/xtaci/kcptun/releases/download/v20210922/kcptun-linux-am
       <pubDate>Sun, 19 Sep 2021 01:52:32 +0100</pubDate>
       
       <guid>https://tatsumin.dev/posts/acer-moniter-144hz/</guid>
-      <description>前言 大约半年前买新电脑时一起把显示器也换了。因为显卡直接上了RTX3080，所以显示器也咬牙在我承受范围内选择了支持4K 144hz的Acer XB273K。但是这个型号的144hz需要overclocking，并且如果想开144hz的话，HDR和G-Sync都需要关闭。
+      <description>前言&amp;nbsp;¶ 大约半年前买新电脑时一起把显示器也换了。因为显卡直接上了RTX3080，所以显示器也咬牙在我承受范围内选择了支持4K 144hz的Acer XB273K。但是这个型号的144hz需要overclocking，并且如果想开144hz的话，HDR和G-Sync都需要关闭。
 最开始组装的时候折腾了好一阵也没闹明白到底怎么开，上网中英文搜索了半天也只找到需要两根DP线，但尝试之后仍是无果，便放置了。前段时间又想起这么回事，找了好几个小时终于找到了解锁方法，特此记录一下。
-步骤  Win10/11系统和显示器硬件panel的HDR以及G-Sync开关都要先关闭，并打开支持144hz Mode。 两根DP1.4的线。这边需要注意的是，两根线在显卡上的接口和显示器上的要对应。即：显卡接口OUTPUT1 - 显示器INPUT1，OUTPUT2-INPUT2。不能乱接，否则开启144hz后会显示not supported Input。 如果要开10bit色彩，在Nvidia Control Panel 里先开10bit，然后再开144hz。  其实没啥特别难的，但是如果第一次弄或者不知道细节还是挺费时间的。
+步骤&amp;nbsp;¶  Win10/11系统和显示器硬件panel的HDR以及G-Sync开关都要先关闭，并打开支持144hz Mode。 两根DP1.4的线。这边需要注意的是，两根线在显卡上的接口和显示器上的要对应。即：显卡接口OUTPUT1 - 显示器INPUT1，OUTPUT2-INPUT2。不能乱接，否则开启144hz后会显示not supported Input。 如果要开10bit色彩，在Nvidia Control Panel 里先开10bit，然后再开144hz。  其实没啥特别难的，但是如果第一次弄或者不知道细节还是挺费时间的。
 权当做个备忘吧。</description>
     </item>
     
@@ -79,14 +79,14 @@ wget https://github.com/xtaci/kcptun/releases/download/v20210922/kcptun-linux-am
       <pubDate>Thu, 09 Sep 2021 22:00:55 +0200</pubDate>
       
       <guid>https://tatsumin.dev/posts/windows11-insider-preview/</guid>
-      <description>由来 Win11系统镜像泄露已经好几个月了。我最早是在7月中旬的时候无意中看到的消息。先不提早几年Win10 刚出的时候那句：
+      <description>由来&amp;nbsp;¶ Win11系统镜像泄露已经好几个月了。我最早是在7月中旬的时候无意中看到的消息。先不提早几年Win10 刚出的时候那句：
 Win10将会是 Windows 最后一个大版本。
 就算是出新系统，这个时间也比我预想的要早了不少。不过最近并没有特别关注计算机方面的专业新闻了，也许仅仅是我没跟上节奏而已。
 虽然因为不能愉快的玩最新的游戏而几乎放弃了 Linux 作为主力操作系统，但许是骨子里的不安分因素仍旧存活着，在微软仅开放了 Windows11 Insider Preview 的 Dev Channel（开发者通道）的那段时间里几度差点就直接冲了上去。好在早些年折腾Linux留下的教训总算是没丢。忍了又忍，最后在Beta Channel 开放后才加入 Insider Preview 计划将系统更新至了 Win11。
 目前正在使用的是 Win11 操作系统版本为:
-Version	21H2 Installed on	‎03/‎09/‎2021 OS build	22000.176 Experience	Windows Feature Experience Pack 1000.22000.176.0 更新 账号加入 Insider Programme 后检查一下系统更新，等它自己下载安装然后重启就完成了从 Win10 到 Win11 Insider Preview 的更新。如果我的记忆没出差错的话，当年Win10 的 Insider Preview 是需要单独下载一个更新程序的。这一点上倒是省事了不少。
+Version	21H2 Installed on	‎03/‎09/‎2021 OS build	22000.176 Experience	Windows Feature Experience Pack 1000.22000.176.0  更新&amp;nbsp;¶ 账号加入 Insider Programme 后检查一下系统更新，等它自己下载安装然后重启就完成了从 Win10 到 Win11 Insider Preview 的更新。如果我的记忆没出差错的话，当年Win10 的 Insider Preview 是需要单独下载一个更新程序的。这一点上倒是省事了不少。
 因为是无缝升级，因此各个驱动和软件都好好的在那，不需要重新下载安装。
-日常使用 由于 Win11 的系统内核仍和 Win10 一致，因此很多东西与 Win10 并没有太多本质性的差别。就我目前待业在家这段时间常用的软件来说:
+日常使用&amp;nbsp;¶ 由于 Win11 的系统内核仍和 Win10 一致，因此很多东西与 Win10 并没有太多本质性的差别。就我目前待业在家这段时间常用的软件来说:
  Microsoft Office 套件， Brave 浏览器， Steam， Discord，以及每天都会玩的 Final Fantasy XIV Online  这一个多月之中还没有出现过闪退或者程序崩溃等情况。使用体验和原来的 Win10 几乎没有差异。</description>
     </item>
     
@@ -96,22 +96,22 @@ Version	21H2 Installed on	‎03/‎09/‎2021 OS build	22000.176 Experience	Wind
       <pubDate>Sat, 24 Oct 2020 22:31:22 +0200</pubDate>
       
       <guid>https://tatsumin.dev/posts/archlinux/</guid>
-      <description>Keep It Simple, Stupid 我最初尝试使用Linux已经是2015年的事了。基于日渐增加的对Windows（以下简称Win）各种不满，在知乎上看到 只用Linux系统是一种怎样的体验 后决定装个双系统来试试。磕磕绊绊装好也用了一段时间后，却因为某次Win10的系统升级，Arch Linux被莫名其妙干掉后就也放弃了再从头装一遍。更何况专业对Linux没有刚需加上舍不得游戏，便就着Win10也用了下去。直到一个月前无意中看到QQ for Linux 时隔10年居然更新了，无聊中便生出了再次拥抱Arch Linux的想法。
+      <description>Keep It Simple, Stupid&amp;nbsp;¶ 我最初尝试使用Linux已经是2015年的事了。基于日渐增加的对Windows（以下简称Win）各种不满，在知乎上看到 只用Linux系统是一种怎样的体验 后决定装个双系统来试试。磕磕绊绊装好也用了一段时间后，却因为某次Win10的系统升级，Arch Linux被莫名其妙干掉后就也放弃了再从头装一遍。更何况专业对Linux没有刚需加上舍不得游戏，便就着Win10也用了下去。直到一个月前无意中看到QQ for Linux 时隔10年居然更新了，无聊中便生出了再次拥抱Arch Linux的想法。
 Keep It Simple, Stupid 是Arch Linux发行版的哲学。根据中文Wiki，可以理解为“保持简单，且一目了然”[1]
 作为非计算机专业，不会程序语言的外行，一开始并不能理解从硬盘分区开始就是全程手动命令行操作的Arch Linux到底simple在哪。但经过这次的再见面，在一次搞定顺利安装的基础上，似乎稍微了解了一些其中的Simple的含义。
 虽然这个词字面翻译来就是简单，但以我个人的理解来看，这个“简单”所对应的反意并不是“困难”，而是“复杂”。具体来说便是从安装到配置，Arch Linux给予了用户相当高的操作控制权，不会给你任何你不想要的东西。而一旦遇到问题时的解决也不会像Win一样给人隔山观海之感，而是能够较为直观地看到并触及到问题的关键所在。
 但不可否认的是，这一切仍是需建立在对Linux系统以及命令行操作有一个最基本的了解的基础之上的。也正如Arch Linux的Wiki中所说，这并不是一个“用户友好”的发行版，而是“以用户为中心”的发行版。
-Desktop | 桌面 因为最初尝试Linux时便试过了如KDE，GNOME，XFCE等桌面环境但结果并不十分满意后，这次再来便一开始就决定放弃Desktop Environment（DE）直接上Window Manager（WM）。当然，这二者之间也并无所谓绝对的好与坏，各有所长而已。
+Desktop | 桌面&amp;nbsp;¶ 因为最初尝试Linux时便试过了如KDE，GNOME，XFCE等桌面环境但结果并不十分满意后，这次再来便一开始就决定放弃Desktop Environment（DE）直接上Window Manager（WM）。当然，这二者之间也并无所谓绝对的好与坏，各有所长而已。
 简单来说，桌面环境所给的东西更全面，一整套工具开箱即用无需过多细节配置，但不可避免地便会有一些用不到或是不满意的部件需要自行删减或是更改替换。而WM则是一个简单的窗口排布的工具，除此之外再无其他，系统资源消耗低的同时也意味着从虚拟终端到浏览器到邮箱客户端等等一切所需软件工具都需要自己另外安装配置。
 按需求和喜好来选择就好。
-Window Manager | 窗口管理器 DWM DWM，Dynamic Window Manager的缩写，Suckless出品的极简主义窗口管理器。
+Window Manager | 窗口管理器&amp;nbsp;¶ DWM&amp;nbsp;¶ DWM，Dynamic Window Manager的缩写，Suckless出品的极简主义窗口管理器。
 轻量自是不用多说，它最让我喜欢的一点是它的栈式窗口管理逻辑（Stacking）。即，新打开的窗口默认置于顶栈，而越接近栈顶的区域屏幕面积越大。输出到显示器上便体现于新窗口默认打开占据显示器左半，之前打开的窗口被推到屏幕右半与其他旧窗口排布在一起。
 Suckless的极简最直观便体现在代码了。与其他众多WM不同，DWM不仅代码精简，甚至连配置文件都没有，所有特性配置直接写在了源代码里，需要什么直接修改头文件甚至C的源代码来实现。而这所带来的对于新手的一大问题便是，它需要自己手动编译安装。 虽然官方网站上提供了相当数量各个功能的补丁，编译安装也就是个sudo make clean install的事，但仍是需要至少能看懂个C语言头文件和代码的大概的。
 这里非常感谢B站up主theCW的教学视频
 -【高效神器】dwm安装与配置（1） —— 极简的窗口管理器 【Suckless的极简主义01】
 -【高效神器】dwm安装与配置（2） —— 极简的窗口管理器 【Suckless的极简主义02】
 具体步骤讲的非常详细好懂，包括打补丁的方法也都有具体演示。只要是能自己参照Wiki独立成功安装Arch Linux的，照着这个视频弄好DWM应该是没多大问题的。 这里具体方法就不再赘述了，只单独提两点我自己在安装配置过程中花费了较多时间精力才解决的，新手容易被困住的问题。
- alpha patch 和systray patch 的冲突 IPC patch  alpha patch 和systray patch 的冲突 DWM安装配置好后，状态栏默认是没有常见的时间音量等系统状态显示的，因此常见方法是</description>
+ alpha patch 和systray patch 的冲突 IPC patch  alpha patch 和systray patch 的冲突&amp;nbsp;¶ DWM安装配置好后，状态栏默认是没有常见的时间音量等系统状态显示的，因此常见方法是</description>
     </item>
     
     <item>
@@ -120,23 +120,23 @@ Suckless的极简最直观便体现在代码了。与其他众多WM不同，DWM�
       <pubDate>Fri, 24 Jul 2020 21:43:45 +0200</pubDate>
       
       <guid>https://tatsumin.dev/posts/hello-world-again/</guid>
-      <description>诞生前 契机 先提一句标题吧，标题其实是突发奇想来的。
+      <description>诞生前&amp;nbsp;¶ 契机&amp;nbsp;¶ 先提一句标题吧，标题其实是突发奇想来的。
 &amp;ldquo;Hello World!&amp;rdquo; 自是不用过多解释，加了个Again 是因为这并不是我自己搭建的第一个独立博客了，便索性以此表达。
 回到正题。
 其实我已经有将近一年没写过博客了。而原本其实也并没有了再折腾一个新博客的打算。最终会有这个小地方的诞生还要回溯到几个月前的简体中文SNS各个平台的过度自我审查。新浪微博和网易Lofter对用户尤其是创作者们一再下屠刀，导致了以这两大平台用户为主的简体中文创作者们的集体出走。而我也算是其中一员。
 其中很多人选择了长毛象 (Mastodon) 作为微博的替代品，而Lofter上的创作者们却被冲散到了各个不同地方。从近几年看过来，相似的历史一再重演。墙内的任何平台都已经不具有可信任度，被勒令审查自我阉割几乎可以说是必然的结局——不论它目前有多自由。因此选择的范围便一下缩小到了仅剩AO3 (Archive of Our Own) 或是自建。
 而AO3并不能满足个人思考和学习内容的承载，加上因为今年2月闹得沸沸扬扬的事，早已被一墙隔在了大部分简体中文创作者和阅读者们的视线之外。 层层考虑下来，便又有了再建博客的想法。
-选择与准备 最开始自建独立博客已经是5年前多的事情了。从最开始的静态博客Hexo，到后来的基于Go语言的Hugo，虽然在这个折腾过程中学到了不少关于自建站点相关的VPS，Linux以及CLI等各种相关知识，但细细回顾思考起来，我在静态博客上花费了过多的时间在选择框架，折腾主题等事情上，真正写作却因为频繁更换日常操作系统（从Mac OS到Arch Linux，再到Win10）而搁浅。因此这次再次决定建博客的时候便把“能够专注于内容”提到了最重要的位置上。故而选择范围便直接来到Ghost和WordPress这两大家上。
+选择与准备&amp;nbsp;¶ 最开始自建独立博客已经是5年前多的事情了。从最开始的静态博客Hexo，到后来的基于Go语言的Hugo，虽然在这个折腾过程中学到了不少关于自建站点相关的VPS，Linux以及CLI等各种相关知识，但细细回顾思考起来，我在静态博客上花费了过多的时间在选择框架，折腾主题等事情上，真正写作却因为频繁更换日常操作系统（从Mac OS到Arch Linux，再到Win10）而搁浅。因此这次再次决定建博客的时候便把“能够专注于内容”提到了最重要的位置上。故而选择范围便直接来到Ghost和WordPress这两大家上。
 然而在这个二选一的过程中我又犯了难。 WordPress更老牌，不论可选主题也好社区也好可定制性也好，都高过Ghost。但缺点同样来自于它的历史悠久：发展到现在已经过于臃肿。
 Ghost相对WordPress来说更年轻，基于Node.js也使得它相对来说更为轻便快速。但同样随之而来的是可定制性等的降低。在决定选择Ghost之前，我甚至花了一整天的时间来找Ghost让我满意的，可免费使用的主题。
 但这次的目标是专注于记录并坚持下去。突然再次意识到这一点后，便毅然决定了不再纠结，就用Ghost：至于主题，简洁不难看便好。如果实在不够满意，等积累到足够的计算机语言知识后再自己改编就好。
-诞生过程 VPS和环境搭建 因为“专注于记录和内容”的目标，使得搭建的过程同样被极度简化。
+诞生过程&amp;nbsp;¶ VPS和环境搭建&amp;nbsp;¶ 因为“专注于记录和内容”的目标，使得搭建的过程同样被极度简化。
 经过价格性能等的简单衡量，我选择了DigitalOcean的VPS，并直接使用了其中Marketplace里的Ghost一键安装服务。从依赖环境到Ghost后端等一系列操作都在VPS建立完成后被自动完成。所需要的操作只剩下输入几个基本配置所需的域名和建立SSL验证用邮箱等操作。
-域名 因为之前也建过好几次个人独立博客了，因此域名提供商便直接选择了一直用的Namecheap。倒是在域名本身的选择上犯了难。
+域名&amp;nbsp;¶ 因为之前也建过好几次个人独立博客了，因此域名提供商便直接选择了一直用的Namecheap。倒是在域名本身的选择上犯了难。
 Holm 出自古斯堪的纳维亚语，意为 &amp;ldquo;a small and rounded islet&amp;rdquo;，即“一个小而圆形的小岛”。而Nori便是我自己，&amp;ldquo;s&amp;rdquo; 作为连接词。因此这个域名简单来说便是“Nori的小岛”的意思。
 它是仅属于我自己的一个小小地盘。
 DNS解析服务我选择了Cloudflare，来进行从浏览器到Cloudflare解析再到服务器的整个信息传输过程的全加密。或许它所能提供的安全性有限，但至少在我力所能及的范围内，我依旧注重在网络上将信息安全与隐私保护做到最大化。
-后记 最后剩下的便是一点主题配置了。基于北欧风格和小岛这个概念，在google上一番搜索之后，定下了现在的Banner和Icon。之后又在Ghost所提供的几个免费主题里挨个试了一遍后选择了Liebling这个主题。便成了现在这个样子。
+后记&amp;nbsp;¶ 最后剩下的便是一点主题配置了。基于北欧风格和小岛这个概念，在google上一番搜索之后，定下了现在的Banner和Icon。之后又在Ghost所提供的几个免费主题里挨个试了一遍后选择了Liebling这个主题。便成了现在这个样子。
 老实说，成品比我自己当初预想的要好很多，至少我自己是真的挺喜欢的。
 再然后就是按照Ghost和主题自身的Documentaion，给博客添加了Disqus评论功能。
 最后的最后，愿这是我最后一次折腾，而这个小岛永不沉没。</description>
@@ -154,11 +154,11 @@ DNS解析服务我选择了Cloudflare，来进行从浏览器到Cloudflare解析
 正直、この店に入ったのは偶然でした。
 元々彼女がマレーシア料理食べたくてグーグルさんにたのみましたが、途中でグーグルマップが全然違う方向で指示したんですので、そのマレーシア料理を諦めて、同じく東南アジアのタイ料理屋さんにしました。
 店自身は小さくて普通だったんですが、味は想像以上においしかったです。サプライズでブログに書こうと決まりました。
-アクセス 店はJR渋谷駅の南口の桜丘町であり、坂道を登って、日本経済大学の渋谷キャンパスもうちょっと前にあります。
-メニュー 行ったときはお昼ですので、ランチメニューで注文しました。
+アクセス&amp;nbsp;¶ 店はJR渋谷駅の南口の桜丘町であり、坂道を登って、日本経済大学の渋谷キャンパスもうちょっと前にあります。
+メニュー&amp;nbsp;¶ 行ったときはお昼ですので、ランチメニューで注文しました。
 メニューでは日本語メインで、英語とタイ語も、写真も付いてて、誰ても分かりやすいと思ういます。
 見たとおり、ランチのメインディッシュは1,000円前後です。
-オーダーと料理 店員さんはほとんどタイ人ですが、日本語も普通に通じます。
+オーダーと料理&amp;nbsp;¶ 店員さんはほとんどタイ人ですが、日本語も普通に通じます。
 料理についてわからない所もちゃんと説明してくれるので、タイ料理に全然わからなくても大丈夫と思います。
 僕は辛いのが好きですから、ゲーン・キィオ・ワン・ガイ（ライス付の鶏肉入りグリーンカレー）にして、
 彼女はカオ・マン・ガイ（タイ風ゆで鶏炊き込みご飯）にしました。
@@ -169,11 +169,11 @@ DNS解析服务我选择了Cloudflare，来进行从浏览器到Cloudflare解析
 それもびっくりしましたが、辛いのが好きな人としても楽しかったです（笑）。
 でも辛さだけではなく、グリーンカレー自身の味も、スープにも鶏肉にもちゃんと入りました。
 彼女の炊き込みご飯は一口だけ味わってたけど、味はちゃんと付けてておいしかったです。
-料理以外の話 食べる途中で、隣に女の人の二人も来ました。二人の話から分かってて、その中の一人はこの店がおいしくて大好きですから、もう一人を連れてきた。
+料理以外の話&amp;nbsp;¶ 食べる途中で、隣に女の人の二人も来ました。二人の話から分かってて、その中の一人はこの店がおいしくて大好きですから、もう一人を連れてきた。
 店の中でも、いろんな雑誌のおすすめのポスターはもちろんあったし、この前タイの観光大使務めてる乃木坂46の皆さんのポスターも見えました。
 ガッキーだ！
 乃木坂さんのポスターの中の一枚
-最後 観光なので二回目行けなかったのは残念でした。隣のお姉ちゃんが注文したトムヤムラーメンも美味しそうだし。 ディナーメニューもランチより選択肢が多いので、またチャンスがあれば、是非もう一回行きたいです！</description>
+最後&amp;nbsp;¶ 観光なので二回目行けなかったのは残念でした。隣のお姉ちゃんが注文したトムヤムラーメンも美味しそうだし。 ディナーメニューもランチより選択肢が多いので、またチャンスがあれば、是非もう一回行きたいです！</description>
     </item>
     
     <item>
@@ -182,40 +182,39 @@ DNS解析服务我选择了Cloudflare，来进行从浏览器到Cloudflare解析
       <pubDate>Thu, 04 Oct 2018 20:44:00 +0200</pubDate>
       
       <guid>https://tatsumin.dev/posts/game-accelerator-mudfish/</guid>
-      <description>はじめに こんにちは。
+      <description>はじめに&amp;nbsp;¶ こんにちは。
 今ドイツ在住なんですけど、FF14はずっと日本鯖（サーバ）でやってます。それでPingは当たり前で高いですし、時々パケッジロストも発生します。 それでVPN探すのを決めました、判断基準は以下二つです：
  Pingは200以下 学生なので料金は負担できる範囲以内 その上で、Mudfishというサービスを選びました。  公式ベージはこちら → Mudfish
-特徴 データ従量制 Mudfishはデータ従量制です。チャージ最低線の2.99 USDで約24GBの通信が使えます。僕は7月3日で2.99 USDをチャージして、今日10月3日まではまだ2.56 USD残っています。最近ゲームインじかんすくないですけど、重度使用しても3ヵ月間以上は絶対足りると思います。
+特徴&amp;nbsp;¶ データ従量制&amp;nbsp;¶ Mudfishはデータ従量制です。チャージ最低線の2.99 USDで約24GBの通信が使えます。僕は7月3日で2.99 USDをチャージして、今日10月3日まではまだ2.56 USD残っています。最近ゲームインじかんすくないですけど、重度使用しても3ヵ月間以上は絶対足りると思います。
 また、有効期限がないので、1年間休止してまだ再開できます。
-大量なサポートされているゲーム ホームページでも見えますが、FF14だけじゃなく、今Mudfishは約300以上のゲームサポートしています。
+大量なサポートされているゲーム&amp;nbsp;¶ ホームページでも見えますが、FF14だけじゃなく、今Mudfishは約300以上のゲームサポートしています。
 ここからは、FF14を例として登録方法からゲームスタートまで詳しく説明します。
-アカウント登録とクライアントのダウンロード ホームページの右上からメールアドレス、ユーザー名、パスワードを入力してアカウント登録します。
+アカウント登録とクライアントのダウンロード&amp;nbsp;¶ ホームページの右上からメールアドレス、ユーザー名、パスワードを入力してアカウント登録します。
 そしてホームページの左上、左から二番目のアイコンはダウンロードです。
 クリックしたら、このページになります。
 自分が使ってるシステムによってダウンロードしてください。
 Win10なら64bitで。Win11今はまだInsider Previewバージョンですが、問題なく使えます。
 Linux用のもありますが、Q＆Aでの答えにより、現在はUbuntuでだけ問題なく使えます、他Distroでは(例えばArch Linuxとか)保証しません。
-Mudfishを起動 スタートからMudFishランチャーを起動します。
+Mudfishを起動&amp;nbsp;¶ スタートからMudFishランチャーを起動します。
 （ドイツ語のシステムですみません。）
 Mudfishちゃんと起動するために、管理者（Administrator）権限必須です。
 通常実行だと管理者権限が必要な旨のエラーが出ますので、ぜひ。
-ログインしたら、画面は大体こうなります。 通信量のチャージ メニューのCredit → Buyから通信量を購入します。
+ログインしたら、画面は大体こうなります。 通信量のチャージ&amp;nbsp;¶ メニューのCredit → Buyから通信量を購入します。
 お好きな額を購入ください。支払いにPaypalが必要です。
-ゲームの設定 Item → Equip item
+ゲームの設定&amp;nbsp;¶ Item → Equip item
 そうしたらゲームのリストに入ります。FF14なら、ページの最後にスクロールするとあります。
 次はサーバとノードの設定です。
 まず自分のキャラがいるさーばをえらびましょう。 ノードなら、右のルーペで、各ノードのPing（ここはScore）と安定性が見えます。
 自分の状況によって選びましょう。
 選ぶのは、したいサーバの名前を覚えて、前のページで選びます。
-FastConnect Mode 設定の最後はFastConnect Modeをオンにすることです。
+FastConnect Mode&amp;nbsp;¶ 設定の最後はFastConnect Modeをオンにすることです。
 メニューのSetup → Programに入って、ページ最後のFastConnect ModeをOnに変えって、SAVE。
 もう一回Mudfishを起動して、Windowsのネットワークの切り替わるノーティフィケーションが出たらYESにしてください。
 ダッシュボードの一番上で100％になったらOKです。
 今後はゲームスタート前にMudfishを起動すれば低いPingでゲームを楽しめます。
-最後 もちろん、いろんなゲームでも、日本から海外のゲームでもMudfish使えます。
+最後&amp;nbsp;¶ もちろん、いろんなゲームでも、日本から海外のゲームでもMudfish使えます。
 設定する方法は大体似ていますが、また困るところはMudfishのドキュメント（英語）をチェックしてください。
-Mudfish Docs
-Enjoy your Game!</description>
+Mudfish Docs</description>
     </item>
     
   </channel>
