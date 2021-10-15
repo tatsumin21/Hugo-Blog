@@ -45,9 +45,9 @@ pygmentsCodefences       = true
 [[params.mainMenu]]
     link = "/about"
     text = "about."
-# [[params.mainMenu]]
-#     link = "https://github.com/tatsumin21"
-#     text = "github."
+[[params.mainMenu]]
+    link = "https://github.com/tatsumin21"
+    text = "github."
 [[params.mainMenu]]
     link = "/contact"
     text = "email."
