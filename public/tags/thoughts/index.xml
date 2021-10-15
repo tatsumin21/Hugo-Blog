@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Thoughts on Tatsumi 巽</title>
+    <title>Thoughts on </title>
     <link>/tags/thoughts/</link>
-    <description>Recent content in Thoughts on Tatsumi 巽</description>
+    <description>Recent content in Thoughts on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <lastBuildDate>Tue, 28 Sep 2021 23:51:32 +0200</lastBuildDate><atom:link href="/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>博客迁移回Hugo以及域名更改</title>

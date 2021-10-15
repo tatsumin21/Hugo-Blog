@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tatsumi 巽</title>
+    <title></title>
     <link>/</link>
-    <description>Recent content on Tatsumi 巽</description>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <lastBuildDate>Thu, 14 Oct 2021 20:28:48 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Social</title>
@@ -211,36 +210,6 @@ DNS解析服务我选择了Cloudflare，来进行从浏览器到Cloudflare解析
 ガッキーだ！
 乃木坂さんのポスターの中の一枚
 最後 観光なので二回目行けなかったのは残念でした。隣のお姉ちゃんが注文したトムヤムラーメンも美味しそうだし。 ディナーメニューもランチより選択肢が多いので、またチャンスがあれば、是非もう一回行きたいです！</description>
-    </item>
-    
-    <item>
-      <title>Another Post</title>
-      <link>/posts/subsection/another-post/</link>
-      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/subsection/another-post/</guid>
-      <description>This is a very simple to post. It includes some placeholder text for the reading time to go up.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</description>
-    </item>
-    
-    <item>
-      <title>Syntax Hightlighting</title>
-      <link>/posts/syntax-highlighting/</link>
-      <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/syntax-highlighting/</guid>
-      <description>Here is some syntax hightlighting.
-pub fn main() { println!(&amp;#34;Hello world!&amp;#34;); } </description>
-    </item>
-    
-    <item>
-      <title>Some Post</title>
-      <link>/posts/some-post/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/some-post/</guid>
-      <description>This is a very simple to post. It includes some placeholder text for the reading time to go up.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</description>
     </item>
     
     <item>

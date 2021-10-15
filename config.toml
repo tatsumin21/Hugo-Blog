@@ -1,9 +1,10 @@
+[config]
 base_url                  = "https://tatsumin.dev"           # Your domain name
 languageCode             = "en-us"
 defaultContentLanguage   = "en"
 isMultilingual           = false
 title                    = "Tatsumi 巽"
-theme                    = "zolasam"
+theme                    = "sam"
 pygmentsStyle            = "monokai"                        # https://help.farbox.com/pygments.html
 pygmentsCodefences       = true
 # googleAnalytics        = ""                               # Tracking code, eg. "UA-111111111-1"
