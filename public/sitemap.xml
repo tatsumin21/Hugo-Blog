@@ -2,75 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tatsumin.dev/social/</loc>
+    <loc>/social/</loc>
     <lastmod>2021-10-14T22:09:49+02:00</lastmod>
   </url><url>
-    <loc>https://tatsumin.dev/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2021-10-14T20:28:48+02:00</lastmod>
   </url><url>
-    <loc>https://tatsumin.dev/</loc>
+    <loc>/</loc>
     <lastmod>2021-10-14T20:28:48+02:00</lastmod>
   </url><url>
-    <loc>https://tatsumin.dev/tags/notes/</loc>
+    <loc>/tags/notes/</loc>
     <lastmod>2021-10-13T10:09:03+02:00</lastmod>
   </url><url>
-    <loc>https://tatsumin.dev/posts/reading-notes-global-sales-01/</loc>
+    <loc>/posts/reading-notes-global-sales-01/</loc>
     <lastmod>2021-10-13T10:09:03+02:00</lastmod>
   </url><url>
-    <loc>https://tatsumin.dev/tags/sales/</loc>
+    <loc>/tags/sales/</loc>
     <lastmod>2021-10-13T10:09:03+02:00</lastmod>
   </url><url>
-    <loc>https://tatsumin.dev/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2021-10-13T10:09:03+02:00</lastmod>
   </url><url>
-    <loc>https://tatsumin.dev/contact/</loc>
+    <loc>/contact/</loc>
     <lastmod>2021-10-04T23:04:02+02:00</lastmod>
   </url><url>
-    <loc>https://tatsumin.dev/tags/gaming/</loc>
+    <loc>/tags/gaming/</loc>
     <lastmod>2021-10-04T19:52:52+02:00</lastmod>
   </url><url>
-    <loc>https://tatsumin.dev/tags/infotech/</loc>
+    <loc>/tags/infotech/</loc>
     <lastmod>2021-10-04T19:52:52+02:00</lastmod>
   </url><url>
-    <loc>https://tatsumin.dev/tags/linux/</loc>
+    <loc>/tags/linux/</loc>
     <lastmod>2021-10-04T19:52:52+02:00</lastmod>
   </url><url>
-    <loc>https://tatsumin.dev/posts/ffxiv-on-linux/</loc>
+    <loc>/posts/ffxiv-on-linux/</loc>
     <lastmod>2021-10-04T19:52:52+02:00</lastmod>
   </url><url>
-    <loc>https://tatsumin.dev/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2021-09-29T13:48:09+02:00</lastmod>
   </url><url>
-    <loc>https://tatsumin.dev/tags/thoughts/</loc>
+    <loc>/tags/thoughts/</loc>
     <lastmod>2021-09-28T23:51:32+02:00</lastmod>
   </url><url>
-    <loc>https://tatsumin.dev/posts/moving-back-to-hugo/</loc>
+    <loc>/posts/moving-back-to-hugo/</loc>
     <lastmod>2021-09-28T23:51:32+02:00</lastmod>
   </url><url>
-    <loc>https://tatsumin.dev/posts/acer-moniter-144hz/</loc>
+    <loc>/posts/acer-moniter-144hz/</loc>
     <lastmod>2021-09-19T01:52:32+01:00</lastmod>
   </url><url>
-    <loc>https://tatsumin.dev/tags/windows/</loc>
+    <loc>/tags/windows/</loc>
     <lastmod>2021-09-09T22:00:55+02:00</lastmod>
   </url><url>
-    <loc>https://tatsumin.dev/posts/windows11-insider-preview/</loc>
+    <loc>/posts/windows11-insider-preview/</loc>
     <lastmod>2021-09-09T22:00:55+02:00</lastmod>
   </url><url>
-    <loc>https://tatsumin.dev/posts/archlinux/</loc>
+    <loc>/posts/archlinux/</loc>
     <lastmod>2020-10-24T22:31:22+02:00</lastmod>
   </url><url>
-    <loc>https://tatsumin.dev/posts/hello-world-again/</loc>
+    <loc>/posts/hello-world-again/</loc>
     <lastmod>2020-07-24T21:43:45+02:00</lastmod>
   </url><url>
-    <loc>https://tatsumin.dev/tags/life/</loc>
+    <loc>/tags/life/</loc>
     <lastmod>2019-11-17T21:28:46+02:00</lastmod>
   </url><url>
-    <loc>https://tatsumin.dev/posts/thai-restaurant-in-shibuya/</loc>
+    <loc>/posts/thai-restaurant-in-shibuya/</loc>
     <lastmod>2019-11-17T21:28:46+02:00</lastmod>
   </url><url>
-    <loc>https://tatsumin.dev/posts/game-accelerator-mudfish/</loc>
+    <loc>/posts/subsection/another-post/</loc>
+    <lastmod>2019-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/subsection/</loc>
+    <lastmod>2019-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/syntax-highlighting/</loc>
+    <lastmod>2019-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/some-post/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/game-accelerator-mudfish/</loc>
     <lastmod>2018-10-04T20:44:00+02:00</lastmod>
   </url><url>
-    <loc>https://tatsumin.dev/categories/</loc>
+    <loc>/categories/</loc>
   </url>
 </urlset>

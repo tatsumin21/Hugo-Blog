@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Tatsumi 巽</title>
-    <link>https://tatsumin.dev/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Tatsumi 巽</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Oct 2021 10:09:03 +0200</lastBuildDate><atom:link href="https://tatsumin.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Oct 2021 10:09:03 +0200</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Notes</title>
-      <link>https://tatsumin.dev/tags/notes/</link>
+      <link>/tags/notes/</link>
       <pubDate>Wed, 13 Oct 2021 10:09:03 +0200</pubDate>
       
-      <guid>https://tatsumin.dev/tags/notes/</guid>
+      <guid>/tags/notes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sales</title>
-      <link>https://tatsumin.dev/tags/sales/</link>
+      <link>/tags/sales/</link>
       <pubDate>Wed, 13 Oct 2021 10:09:03 +0200</pubDate>
       
-      <guid>https://tatsumin.dev/tags/sales/</guid>
+      <guid>/tags/sales/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gaming</title>
-      <link>https://tatsumin.dev/tags/gaming/</link>
+      <link>/tags/gaming/</link>
       <pubDate>Mon, 04 Oct 2021 19:52:52 +0200</pubDate>
       
-      <guid>https://tatsumin.dev/tags/gaming/</guid>
+      <guid>/tags/gaming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>InfoTech</title>
-      <link>https://tatsumin.dev/tags/infotech/</link>
+      <link>/tags/infotech/</link>
       <pubDate>Mon, 04 Oct 2021 19:52:52 +0200</pubDate>
       
-      <guid>https://tatsumin.dev/tags/infotech/</guid>
+      <guid>/tags/infotech/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>https://tatsumin.dev/tags/linux/</link>
+      <link>/tags/linux/</link>
       <pubDate>Mon, 04 Oct 2021 19:52:52 +0200</pubDate>
       
-      <guid>https://tatsumin.dev/tags/linux/</guid>
+      <guid>/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Thoughts</title>
-      <link>https://tatsumin.dev/tags/thoughts/</link>
+      <link>/tags/thoughts/</link>
       <pubDate>Tue, 28 Sep 2021 23:51:32 +0200</pubDate>
       
-      <guid>https://tatsumin.dev/tags/thoughts/</guid>
+      <guid>/tags/thoughts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Windows</title>
-      <link>https://tatsumin.dev/tags/windows/</link>
+      <link>/tags/windows/</link>
       <pubDate>Thu, 09 Sep 2021 22:00:55 +0200</pubDate>
       
-      <guid>https://tatsumin.dev/tags/windows/</guid>
+      <guid>/tags/windows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Life</title>
-      <link>https://tatsumin.dev/tags/life/</link>
+      <link>/tags/life/</link>
       <pubDate>Sun, 17 Nov 2019 21:28:46 +0200</pubDate>
       
-      <guid>https://tatsumin.dev/tags/life/</guid>
+      <guid>/tags/life/</guid>
       <description></description>
     </item>
     

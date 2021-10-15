@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>InfoTech on Tatsumi 巽</title>
-    <link>https://tatsumin.dev/tags/infotech/</link>
+    <link>/tags/infotech/</link>
     <description>Recent content in InfoTech on Tatsumi 巽</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Oct 2021 19:52:52 +0200</lastBuildDate><atom:link href="https://tatsumin.dev/tags/infotech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Oct 2021 19:52:52 +0200</lastBuildDate><atom:link href="/tags/infotech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>通过KCPTUN 和 Shadowsocks 给 Linux 下的网游加速</title>
-      <link>https://tatsumin.dev/posts/ffxiv-on-linux/</link>
+      <link>/posts/ffxiv-on-linux/</link>
       <pubDate>Mon, 04 Oct 2021 19:52:52 +0200</pubDate>
       
-      <guid>https://tatsumin.dev/posts/ffxiv-on-linux/</guid>
-      <description>前言&amp;nbsp;¶ 来来回回在Win和ArchLinux之间换了好几次，最终还是下定决心回到Linux怀抱，毕竟我目前的日常需求除了游戏几乎也没有什么一定要用到Win的地方，而游戏目前又几乎只在玩FF14。
+      <guid>/posts/ffxiv-on-linux/</guid>
+      <description>前言 来来回回在Win和ArchLinux之间换了好几次，最终还是下定决心回到Linux怀抱，毕竟我目前的日常需求除了游戏几乎也没有什么一定要用到Win的地方，而游戏目前又几乎只在玩FF14。
 Linux下跑FF14本不是个难事，很早之前Steam的Proton和Lutris就都能做到这一点了。但我的需求稍微有些特殊：
  我人在欧洲，但我的FF14角色在日服。而Linux下几乎没有像Win下那样的游戏专用加速器。
  于是在换回ArchLinux并配置好基本的桌面及软件后，便开始想办法寻找Linux下给网游加速降低延迟的方法。经过搜索后决定试试Kcptun 和 Shadowsocks。
@@ -21,7 +21,7 @@ kcptun 加速流量的原理根据Github上的介绍，如下图所示：
 需要注意的是，FFXIV的流量是全部走TCP格式传输的，而KCPTUN正好是加速的TCP流量，因此这个方法具有可行性。
 而如果是其他游戏如PUBG(吃鸡)，只有游戏大厅内的传输流量是TCP,进入游戏开始对战后为UDP流量。而KCPTUN是不对UDP流量进行处理的，因此将不会有加速效果。
 所以请在准备使用此方法之前确认所需加速的流量的传输格式，以免做无用功。
-准备&amp;nbsp;¶  一台带宽尚可的Linux系统的VPS（理论上发行版不限，Ubuntu，Cent OS或其他熟悉的x64发行版都可）  安装及配置服务端&amp;nbsp;¶ KCPTUN Server Client&amp;nbsp;¶ 远程登入VPS的shell后，在根目录下新建一个文件夹用来放kcptun 服务端，这里文件夹名就以kcptun 为例。
+准备  一台带宽尚可的Linux系统的VPS（理论上发行版不限，Ubuntu，Cent OS或其他熟悉的x64发行版都可）  安装及配置服务端 KCPTUN Server Client 远程登入VPS的shell后，在根目录下新建一个文件夹用来放kcptun 服务端，这里文件夹名就以kcptun 为例。
 mkdir kcptun cd kcptun 然后下载Github Release 页面上最新的.tar.gz 压缩包，解压缩并新建一个服务端的配置文件。 这边配置文件以 config.json 命名。
 wget https://github.com/xtaci/kcptun/releases/download/v20210922/kcptun-linux-amd64-20210922.tar.gz tar -zxvf kcptun-linux-amd64-20210922.tar.gz vim $HOME/kcptun/config.json 这边压缩包的名称里的amd64便是x64 Linux系统用，如果是其他系统作为服务端，请根据系统选择对应的包。 后面的日期会根据作者维护更新有所不同，这里及后文都请注意更改，请勿照搬。
 然后在配置文件里写入如下内容：
@@ -30,55 +30,55 @@ wget https://github.com/xtaci/kcptun/releases/download/v20210922/kcptun-linux-am
     
     <item>
       <title>Acer 宏碁XB273K 显示器解锁超频4K 144hz 10bit</title>
-      <link>https://tatsumin.dev/posts/acer-moniter-144hz/</link>
+      <link>/posts/acer-moniter-144hz/</link>
       <pubDate>Sun, 19 Sep 2021 01:52:32 +0100</pubDate>
       
-      <guid>https://tatsumin.dev/posts/acer-moniter-144hz/</guid>
-      <description>前言&amp;nbsp;¶ 大约半年前买新电脑时一起把显示器也换了。因为显卡直接上了RTX3080，所以显示器也咬牙在我承受范围内选择了支持4K 144hz的Acer XB273K。但是这个型号的144hz需要overclocking，并且如果想开144hz的话，HDR和G-Sync都需要关闭。
+      <guid>/posts/acer-moniter-144hz/</guid>
+      <description>前言 大约半年前买新电脑时一起把显示器也换了。因为显卡直接上了RTX3080，所以显示器也咬牙在我承受范围内选择了支持4K 144hz的Acer XB273K。但是这个型号的144hz需要overclocking，并且如果想开144hz的话，HDR和G-Sync都需要关闭。
 最开始组装的时候折腾了好一阵也没闹明白到底怎么开，上网中英文搜索了半天也只找到需要两根DP线，但尝试之后仍是无果，便放置了。前段时间又想起这么回事，找了好几个小时终于找到了解锁方法，特此记录一下。
-步骤&amp;nbsp;¶  Win10/11系统和显示器硬件panel的HDR以及G-Sync开关都要先关闭，并打开支持144hz Mode。 两根DP1.4的线。这边需要注意的是，两根线在显卡上的接口和显示器上的要对应。即：显卡接口OUTPUT1 - 显示器INPUT1，OUTPUT2-INPUT2。不能乱接，否则开启144hz后会显示not supported Input。 如果要开10bit色彩，在Nvidia Control Panel 里先开10bit，然后再开144hz。  其实没啥特别难的，但是如果第一次弄或者不知道细节还是挺费时间的。
+步骤  Win10/11系统和显示器硬件panel的HDR以及G-Sync开关都要先关闭，并打开支持144hz Mode。 两根DP1.4的线。这边需要注意的是，两根线在显卡上的接口和显示器上的要对应。即：显卡接口OUTPUT1 - 显示器INPUT1，OUTPUT2-INPUT2。不能乱接，否则开启144hz后会显示not supported Input。 如果要开10bit色彩，在Nvidia Control Panel 里先开10bit，然后再开144hz。  其实没啥特别难的，但是如果第一次弄或者不知道细节还是挺费时间的。
 权当做个备忘吧。</description>
     </item>
     
     <item>
       <title>Windows11 Insider Preview 试用小记</title>
-      <link>https://tatsumin.dev/posts/windows11-insider-preview/</link>
+      <link>/posts/windows11-insider-preview/</link>
       <pubDate>Thu, 09 Sep 2021 22:00:55 +0200</pubDate>
       
-      <guid>https://tatsumin.dev/posts/windows11-insider-preview/</guid>
-      <description>由来&amp;nbsp;¶ Win11系统镜像泄露已经好几个月了。我最早是在7月中旬的时候无意中看到的消息。先不提早几年Win10 刚出的时候那句：
+      <guid>/posts/windows11-insider-preview/</guid>
+      <description>由来 Win11系统镜像泄露已经好几个月了。我最早是在7月中旬的时候无意中看到的消息。先不提早几年Win10 刚出的时候那句：
 Win10将会是 Windows 最后一个大版本。
 就算是出新系统，这个时间也比我预想的要早了不少。不过最近并没有特别关注计算机方面的专业新闻了，也许仅仅是我没跟上节奏而已。
 虽然因为不能愉快的玩最新的游戏而几乎放弃了 Linux 作为主力操作系统，但许是骨子里的不安分因素仍旧存活着，在微软仅开放了 Windows11 Insider Preview 的 Dev Channel（开发者通道）的那段时间里几度差点就直接冲了上去。好在早些年折腾Linux留下的教训总算是没丢。忍了又忍，最后在Beta Channel 开放后才加入 Insider Preview 计划将系统更新至了 Win11。
 目前正在使用的是 Win11 操作系统版本为:
-Version	21H2 Installed on	‎03/‎09/‎2021 OS build	22000.176 Experience	Windows Feature Experience Pack 1000.22000.176.0  更新&amp;nbsp;¶ 账号加入 Insider Programme 后检查一下系统更新，等它自己下载安装然后重启就完成了从 Win10 到 Win11 Insider Preview 的更新。如果我的记忆没出差错的话，当年Win10 的 Insider Preview 是需要单独下载一个更新程序的。这一点上倒是省事了不少。
+Version	21H2 Installed on	‎03/‎09/‎2021 OS build	22000.176 Experience	Windows Feature Experience Pack 1000.22000.176.0 更新 账号加入 Insider Programme 后检查一下系统更新，等它自己下载安装然后重启就完成了从 Win10 到 Win11 Insider Preview 的更新。如果我的记忆没出差错的话，当年Win10 的 Insider Preview 是需要单独下载一个更新程序的。这一点上倒是省事了不少。
 因为是无缝升级，因此各个驱动和软件都好好的在那，不需要重新下载安装。
-日常使用&amp;nbsp;¶ 由于 Win11 的系统内核仍和 Win10 一致，因此很多东西与 Win10 并没有太多本质性的差别。就我目前待业在家这段时间常用的软件来说:
+日常使用 由于 Win11 的系统内核仍和 Win10 一致，因此很多东西与 Win10 并没有太多本质性的差别。就我目前待业在家这段时间常用的软件来说:
  Microsoft Office 套件， Brave 浏览器， Steam， Discord，以及每天都会玩的 Final Fantasy XIV Online  这一个多月之中还没有出现过闪退或者程序崩溃等情况。使用体验和原来的 Win10 几乎没有差异。</description>
     </item>
     
     <item>
       <title>Archlinux 及常用软件工具安装配置小记</title>
-      <link>https://tatsumin.dev/posts/archlinux/</link>
+      <link>/posts/archlinux/</link>
       <pubDate>Sat, 24 Oct 2020 22:31:22 +0200</pubDate>
       
-      <guid>https://tatsumin.dev/posts/archlinux/</guid>
-      <description>Keep It Simple, Stupid&amp;nbsp;¶ 我最初尝试使用Linux已经是2015年的事了。基于日渐增加的对Windows（以下简称Win）各种不满，在知乎上看到 只用Linux系统是一种怎样的体验 后决定装个双系统来试试。磕磕绊绊装好也用了一段时间后，却因为某次Win10的系统升级，Arch Linux被莫名其妙干掉后就也放弃了再从头装一遍。更何况专业对Linux没有刚需加上舍不得游戏，便就着Win10也用了下去。直到一个月前无意中看到QQ for Linux 时隔10年居然更新了，无聊中便生出了再次拥抱Arch Linux的想法。
+      <guid>/posts/archlinux/</guid>
+      <description>Keep It Simple, Stupid 我最初尝试使用Linux已经是2015年的事了。基于日渐增加的对Windows（以下简称Win）各种不满，在知乎上看到 只用Linux系统是一种怎样的体验 后决定装个双系统来试试。磕磕绊绊装好也用了一段时间后，却因为某次Win10的系统升级，Arch Linux被莫名其妙干掉后就也放弃了再从头装一遍。更何况专业对Linux没有刚需加上舍不得游戏，便就着Win10也用了下去。直到一个月前无意中看到QQ for Linux 时隔10年居然更新了，无聊中便生出了再次拥抱Arch Linux的想法。
 Keep It Simple, Stupid 是Arch Linux发行版的哲学。根据中文Wiki，可以理解为“保持简单，且一目了然”[1]
 作为非计算机专业，不会程序语言的外行，一开始并不能理解从硬盘分区开始就是全程手动命令行操作的Arch Linux到底simple在哪。但经过这次的再见面，在一次搞定顺利安装的基础上，似乎稍微了解了一些其中的Simple的含义。
 虽然这个词字面翻译来就是简单，但以我个人的理解来看，这个“简单”所对应的反意并不是“困难”，而是“复杂”。具体来说便是从安装到配置，Arch Linux给予了用户相当高的操作控制权，不会给你任何你不想要的东西。而一旦遇到问题时的解决也不会像Win一样给人隔山观海之感，而是能够较为直观地看到并触及到问题的关键所在。
 但不可否认的是，这一切仍是需建立在对Linux系统以及命令行操作有一个最基本的了解的基础之上的。也正如Arch Linux的Wiki中所说，这并不是一个“用户友好”的发行版，而是“以用户为中心”的发行版。
-Desktop | 桌面&amp;nbsp;¶ 因为最初尝试Linux时便试过了如KDE，GNOME，XFCE等桌面环境但结果并不十分满意后，这次再来便一开始就决定放弃Desktop Environment（DE）直接上Window Manager（WM）。当然，这二者之间也并无所谓绝对的好与坏，各有所长而已。
+Desktop | 桌面 因为最初尝试Linux时便试过了如KDE，GNOME，XFCE等桌面环境但结果并不十分满意后，这次再来便一开始就决定放弃Desktop Environment（DE）直接上Window Manager（WM）。当然，这二者之间也并无所谓绝对的好与坏，各有所长而已。
 简单来说，桌面环境所给的东西更全面，一整套工具开箱即用无需过多细节配置，但不可避免地便会有一些用不到或是不满意的部件需要自行删减或是更改替换。而WM则是一个简单的窗口排布的工具，除此之外再无其他，系统资源消耗低的同时也意味着从虚拟终端到浏览器到邮箱客户端等等一切所需软件工具都需要自己另外安装配置。
 按需求和喜好来选择就好。
-Window Manager | 窗口管理器&amp;nbsp;¶ DWM&amp;nbsp;¶ DWM，Dynamic Window Manager的缩写，Suckless出品的极简主义窗口管理器。
+Window Manager | 窗口管理器 DWM DWM，Dynamic Window Manager的缩写，Suckless出品的极简主义窗口管理器。
 轻量自是不用多说，它最让我喜欢的一点是它的栈式窗口管理逻辑（Stacking）。即，新打开的窗口默认置于顶栈，而越接近栈顶的区域屏幕面积越大。输出到显示器上便体现于新窗口默认打开占据显示器左半，之前打开的窗口被推到屏幕右半与其他旧窗口排布在一起。
 Suckless的极简最直观便体现在代码了。与其他众多WM不同，DWM不仅代码精简，甚至连配置文件都没有，所有特性配置直接写在了源代码里，需要什么直接修改头文件甚至C的源代码来实现。而这所带来的对于新手的一大问题便是，它需要自己手动编译安装。 虽然官方网站上提供了相当数量各个功能的补丁，编译安装也就是个sudo make clean install的事，但仍是需要至少能看懂个C语言头文件和代码的大概的。
 这里非常感谢B站up主theCW的教学视频
 -【高效神器】dwm安装与配置（1） —— 极简的窗口管理器 【Suckless的极简主义01】
 -【高效神器】dwm安装与配置（2） —— 极简的窗口管理器 【Suckless的极简主义02】
 具体步骤讲的非常详细好懂，包括打补丁的方法也都有具体演示。只要是能自己参照Wiki独立成功安装Arch Linux的，照着这个视频弄好DWM应该是没多大问题的。 这里具体方法就不再赘述了，只单独提两点我自己在安装配置过程中花费了较多时间精力才解决的，新手容易被困住的问题。
- alpha patch 和systray patch 的冲突 IPC patch  alpha patch 和systray patch 的冲突&amp;nbsp;¶ DWM安装配置好后，状态栏默认是没有常见的时间音量等系统状态显示的，因此常见方法是</description>
+ alpha patch 和systray patch 的冲突 IPC patch  alpha patch 和systray patch 的冲突 DWM安装配置好后，状态栏默认是没有常见的时间音量等系统状态显示的，因此常见方法是</description>
     </item>
     
   </channel>

@@ -3,4 +3,4 @@
 	url = git@github.com:tatsumin21/hugo-theme-sam.git
 [submodule "themes/zolasam"]
 	path = themes/zolasam
-	url = https://github.com/janbaudisch/zola-sam.git
+	url = git@github.com:tatsumin21/zola-sam.git

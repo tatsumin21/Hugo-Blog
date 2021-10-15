@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sales on Tatsumi 巽</title>
-    <link>https://tatsumin.dev/tags/sales/</link>
+    <link>/tags/sales/</link>
     <description>Recent content in Sales on Tatsumi 巽</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Oct 2021 10:09:03 +0200</lastBuildDate><atom:link href="https://tatsumin.dev/tags/sales/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Oct 2021 10:09:03 +0200</lastBuildDate><atom:link href="/tags/sales/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reading Notes: Global Sales-01</title>
-      <link>https://tatsumin.dev/posts/reading-notes-global-sales-01/</link>
+      <link>/posts/reading-notes-global-sales-01/</link>
       <pubDate>Wed, 13 Oct 2021 10:09:03 +0200</pubDate>
       
-      <guid>https://tatsumin.dev/posts/reading-notes-global-sales-01/</guid>
-      <description>Basic Concepts&amp;nbsp;¶   Differences between international &amp;amp; domestic sales
+      <guid>/posts/reading-notes-global-sales-01/</guid>
+      <description>Basic Concepts   Differences between international &amp;amp; domestic sales
  existing relationship of trust (must be established) demands and workflow of customers the process of internal information    the more skilled, motivated and trained people that are selling your product, the more you will sell.
-  Forece Multiplication&amp;nbsp;¶  Global distribution agreement Distributors Manufacturer&amp;rsquo;s representatives Consultants  Your success is directly tied to distributor mind share</description>
+  Forece Multiplication  Global distribution agreement Distributors Manufacturer&amp;rsquo;s representatives Consultants  Your success is directly tied to distributor mind share</description>
     </item>
     
   </channel>
