@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gaming on </title>
-    <link>/tags/gaming/</link>
-    <description>Recent content in Gaming on </description>
+    <title>Gaming on Tatsumi 巽</title>
+    <link>https://tatsumin.dev/tags/gaming/</link>
+    <description>Recent content in Gaming on Tatsumi 巽</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 04 Oct 2021 19:52:52 +0200</lastBuildDate><atom:link href="/tags/gaming/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Oct 2021 19:52:52 +0200</lastBuildDate><atom:link href="https://tatsumin.dev/tags/gaming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>通过KCPTUN 和 Shadowsocks 给 Linux 下的网游加速</title>
-      <link>/posts/ffxiv-on-linux/</link>
+      <link>https://tatsumin.dev/posts/ffxiv-on-linux/</link>
       <pubDate>Mon, 04 Oct 2021 19:52:52 +0200</pubDate>
       
-      <guid>/posts/ffxiv-on-linux/</guid>
+      <guid>https://tatsumin.dev/posts/ffxiv-on-linux/</guid>
       <description>前言 来来回回在Win和ArchLinux之间换了好几次，最终还是下定决心回到Linux怀抱，毕竟我目前的日常需求除了游戏几乎也没有什么一定要用到Win的地方，而游戏目前又几乎只在玩FF14。
 Linux下跑FF14本不是个难事，很早之前Steam的Proton和Lutris就都能做到这一点了。但我的需求稍微有些特殊：
  我人在欧洲，但我的FF14角色在日服。而Linux下几乎没有像Win下那样的游戏专用加速器。
@@ -29,10 +30,10 @@ wget https://github.com/xtaci/kcptun/releases/download/v20210922/kcptun-linux-am
     
     <item>
       <title>海外ゲーミンングPingを改善しよーMudfish</title>
-      <link>/posts/game-accelerator-mudfish/</link>
+      <link>https://tatsumin.dev/posts/game-accelerator-mudfish/</link>
       <pubDate>Thu, 04 Oct 2018 20:44:00 +0200</pubDate>
       
-      <guid>/posts/game-accelerator-mudfish/</guid>
+      <guid>https://tatsumin.dev/posts/game-accelerator-mudfish/</guid>
       <description>はじめに こんにちは。
 今ドイツ在住なんですけど、FF14はずっと日本鯖（サーバ）でやってます。それでPingは当たり前で高いですし、時々パケッジロストも発生します。 それでVPN探すのを決めました、判断基準は以下二つです：
  Pingは200以下 学生なので料金は負担できる範囲以内 その上で、Mudfishというサービスを選びました。  公式ベージはこちら → Mudfish

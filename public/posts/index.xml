@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on </title>
-    <link>/posts/</link>
-    <description>Recent content in Posts on </description>
+    <title>Posts on Tatsumi 巽</title>
+    <link>https://tatsumin.dev/posts/</link>
+    <description>Recent content in Posts on Tatsumi 巽</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 14 Oct 2021 20:28:48 +0200</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Oct 2021 20:28:48 +0200</lastBuildDate><atom:link href="https://tatsumin.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reading Notes: Global Sales-01</title>
-      <link>/posts/reading-notes-global-sales-01/</link>
+      <link>https://tatsumin.dev/posts/reading-notes-global-sales-01/</link>
       <pubDate>Wed, 13 Oct 2021 10:09:03 +0200</pubDate>
       
-      <guid>/posts/reading-notes-global-sales-01/</guid>
+      <guid>https://tatsumin.dev/posts/reading-notes-global-sales-01/</guid>
       <description>Basic Concepts   Differences between international &amp;amp; domestic sales
  existing relationship of trust (must be established) demands and workflow of customers the process of internal information    the more skilled, motivated and trained people that are selling your product, the more you will sell.
   Forece Multiplication  Global distribution agreement Distributors Manufacturer&amp;rsquo;s representatives Consultants  Your success is directly tied to distributor mind share</description>
@@ -19,10 +20,10 @@
     
     <item>
       <title>通过KCPTUN 和 Shadowsocks 给 Linux 下的网游加速</title>
-      <link>/posts/ffxiv-on-linux/</link>
+      <link>https://tatsumin.dev/posts/ffxiv-on-linux/</link>
       <pubDate>Mon, 04 Oct 2021 19:52:52 +0200</pubDate>
       
-      <guid>/posts/ffxiv-on-linux/</guid>
+      <guid>https://tatsumin.dev/posts/ffxiv-on-linux/</guid>
       <description>前言 来来回回在Win和ArchLinux之间换了好几次，最终还是下定决心回到Linux怀抱，毕竟我目前的日常需求除了游戏几乎也没有什么一定要用到Win的地方，而游戏目前又几乎只在玩FF14。
 Linux下跑FF14本不是个难事，很早之前Steam的Proton和Lutris就都能做到这一点了。但我的需求稍微有些特殊：
  我人在欧洲，但我的FF14角色在日服。而Linux下几乎没有像Win下那样的游戏专用加速器。
@@ -40,10 +41,10 @@ wget https://github.com/xtaci/kcptun/releases/download/v20210922/kcptun-linux-am
     
     <item>
       <title>博客迁移回Hugo以及域名更改</title>
-      <link>/posts/moving-back-to-hugo/</link>
+      <link>https://tatsumin.dev/posts/moving-back-to-hugo/</link>
       <pubDate>Tue, 28 Sep 2021 23:51:32 +0200</pubDate>
       
-      <guid>/posts/moving-back-to-hugo/</guid>
+      <guid>https://tatsumin.dev/posts/moving-back-to-hugo/</guid>
       <description>Moving back to Hugo 是的，我的博客又又又又搬家了。
 不过这回倒是没有过多折腾，而是迁移回到了老朋友Hugo来。大致原因以下几点：
  Windows Terminal的使用体验改善了不少， 微软的WSL项目已经更新到了WSL2，windows上也能很平滑无障碍地安装并使用Linux内核系统的环境和Shell， 通过Netlify免费服务能实现自动生成并部署网页，能够省掉每次生成部署的麻烦，用Git来管理，并存放在github上也能在更换设备后通过简单的 git pull 直接拉下来然后接着写，不用担心备份的问题。 能省掉一份租VPS的钱！  其实吧，还有一个原因是，我果然还是更喜欢这种简单的静态网页。
@@ -62,10 +63,10 @@ wget https://github.com/xtaci/kcptun/releases/download/v20210922/kcptun-linux-am
     
     <item>
       <title>Acer 宏碁XB273K 显示器解锁超频4K 144hz 10bit</title>
-      <link>/posts/acer-moniter-144hz/</link>
+      <link>https://tatsumin.dev/posts/acer-moniter-144hz/</link>
       <pubDate>Sun, 19 Sep 2021 01:52:32 +0100</pubDate>
       
-      <guid>/posts/acer-moniter-144hz/</guid>
+      <guid>https://tatsumin.dev/posts/acer-moniter-144hz/</guid>
       <description>前言 大约半年前买新电脑时一起把显示器也换了。因为显卡直接上了RTX3080，所以显示器也咬牙在我承受范围内选择了支持4K 144hz的Acer XB273K。但是这个型号的144hz需要overclocking，并且如果想开144hz的话，HDR和G-Sync都需要关闭。
 最开始组装的时候折腾了好一阵也没闹明白到底怎么开，上网中英文搜索了半天也只找到需要两根DP线，但尝试之后仍是无果，便放置了。前段时间又想起这么回事，找了好几个小时终于找到了解锁方法，特此记录一下。
 步骤  Win10/11系统和显示器硬件panel的HDR以及G-Sync开关都要先关闭，并打开支持144hz Mode。 两根DP1.4的线。这边需要注意的是，两根线在显卡上的接口和显示器上的要对应。即：显卡接口OUTPUT1 - 显示器INPUT1，OUTPUT2-INPUT2。不能乱接，否则开启144hz后会显示not supported Input。 如果要开10bit色彩，在Nvidia Control Panel 里先开10bit，然后再开144hz。  其实没啥特别难的，但是如果第一次弄或者不知道细节还是挺费时间的。
@@ -74,10 +75,10 @@ wget https://github.com/xtaci/kcptun/releases/download/v20210922/kcptun-linux-am
     
     <item>
       <title>Windows11 Insider Preview 试用小记</title>
-      <link>/posts/windows11-insider-preview/</link>
+      <link>https://tatsumin.dev/posts/windows11-insider-preview/</link>
       <pubDate>Thu, 09 Sep 2021 22:00:55 +0200</pubDate>
       
-      <guid>/posts/windows11-insider-preview/</guid>
+      <guid>https://tatsumin.dev/posts/windows11-insider-preview/</guid>
       <description>由来 Win11系统镜像泄露已经好几个月了。我最早是在7月中旬的时候无意中看到的消息。先不提早几年Win10 刚出的时候那句：
 Win10将会是 Windows 最后一个大版本。
 就算是出新系统，这个时间也比我预想的要早了不少。不过最近并没有特别关注计算机方面的专业新闻了，也许仅仅是我没跟上节奏而已。
@@ -91,10 +92,10 @@ Version	21H2 Installed on	‎03/‎09/‎2021 OS build	22000.176 Experience	Wind
     
     <item>
       <title>Archlinux 及常用软件工具安装配置小记</title>
-      <link>/posts/archlinux/</link>
+      <link>https://tatsumin.dev/posts/archlinux/</link>
       <pubDate>Sat, 24 Oct 2020 22:31:22 +0200</pubDate>
       
-      <guid>/posts/archlinux/</guid>
+      <guid>https://tatsumin.dev/posts/archlinux/</guid>
       <description>Keep It Simple, Stupid 我最初尝试使用Linux已经是2015年的事了。基于日渐增加的对Windows（以下简称Win）各种不满，在知乎上看到 只用Linux系统是一种怎样的体验 后决定装个双系统来试试。磕磕绊绊装好也用了一段时间后，却因为某次Win10的系统升级，Arch Linux被莫名其妙干掉后就也放弃了再从头装一遍。更何况专业对Linux没有刚需加上舍不得游戏，便就着Win10也用了下去。直到一个月前无意中看到QQ for Linux 时隔10年居然更新了，无聊中便生出了再次拥抱Arch Linux的想法。
 Keep It Simple, Stupid 是Arch Linux发行版的哲学。根据中文Wiki，可以理解为“保持简单，且一目了然”[1]
 作为非计算机专业，不会程序语言的外行，一开始并不能理解从硬盘分区开始就是全程手动命令行操作的Arch Linux到底simple在哪。但经过这次的再见面，在一次搞定顺利安装的基础上，似乎稍微了解了一些其中的Simple的含义。
@@ -115,10 +116,10 @@ Suckless的极简最直观便体现在代码了。与其他众多WM不同，DWM�
     
     <item>
       <title>Hello, World! Again!</title>
-      <link>/posts/hello-world-again/</link>
+      <link>https://tatsumin.dev/posts/hello-world-again/</link>
       <pubDate>Fri, 24 Jul 2020 21:43:45 +0200</pubDate>
       
-      <guid>/posts/hello-world-again/</guid>
+      <guid>https://tatsumin.dev/posts/hello-world-again/</guid>
       <description>诞生前 契机 先提一句标题吧，标题其实是突发奇想来的。
 &amp;ldquo;Hello World!&amp;rdquo; 自是不用过多解释，加了个Again 是因为这并不是我自己搭建的第一个独立博客了，便索性以此表达。
 回到正题。
@@ -143,10 +144,10 @@ DNS解析服务我选择了Cloudflare，来进行从浏览器到Cloudflare解析
     
     <item>
       <title>渋谷で出会ったサプライズーータイ料理研究所</title>
-      <link>/posts/thai-restaurant-in-shibuya/</link>
+      <link>https://tatsumin.dev/posts/thai-restaurant-in-shibuya/</link>
       <pubDate>Sun, 17 Nov 2019 21:28:46 +0200</pubDate>
       
-      <guid>/posts/thai-restaurant-in-shibuya/</guid>
+      <guid>https://tatsumin.dev/posts/thai-restaurant-in-shibuya/</guid>
       <description>こんにちは。
 先月彼女と東京に行きました。
 洋服以外、サプライズのおいしい味も見つけました。それは今回おすすめしたいレストラン：タイ料理研究所です。
@@ -177,10 +178,10 @@ DNS解析服务我选择了Cloudflare，来进行从浏览器到Cloudflare解析
     
     <item>
       <title>海外ゲーミンングPingを改善しよーMudfish</title>
-      <link>/posts/game-accelerator-mudfish/</link>
+      <link>https://tatsumin.dev/posts/game-accelerator-mudfish/</link>
       <pubDate>Thu, 04 Oct 2018 20:44:00 +0200</pubDate>
       
-      <guid>/posts/game-accelerator-mudfish/</guid>
+      <guid>https://tatsumin.dev/posts/game-accelerator-mudfish/</guid>
       <description>はじめに こんにちは。
 今ドイツ在住なんですけど、FF14はずっと日本鯖（サーバ）でやってます。それでPingは当たり前で高いですし、時々パケッジロストも発生します。 それでVPN探すのを決めました、判断基準は以下二つです：
  Pingは200以下 学生なので料金は負担できる範囲以内 その上で、Mudfishというサービスを選びました。  公式ベージはこちら → Mudfish

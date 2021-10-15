@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Windows on </title>
-    <link>/tags/windows/</link>
-    <description>Recent content in Windows on </description>
+    <title>Windows on Tatsumi 巽</title>
+    <link>https://tatsumin.dev/tags/windows/</link>
+    <description>Recent content in Windows on Tatsumi 巽</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 09 Sep 2021 22:00:55 +0200</lastBuildDate><atom:link href="/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Sep 2021 22:00:55 +0200</lastBuildDate><atom:link href="https://tatsumin.dev/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows11 Insider Preview 试用小记</title>
-      <link>/posts/windows11-insider-preview/</link>
+      <link>https://tatsumin.dev/posts/windows11-insider-preview/</link>
       <pubDate>Thu, 09 Sep 2021 22:00:55 +0200</pubDate>
       
-      <guid>/posts/windows11-insider-preview/</guid>
+      <guid>https://tatsumin.dev/posts/windows11-insider-preview/</guid>
       <description>由来 Win11系统镜像泄露已经好几个月了。我最早是在7月中旬的时候无意中看到的消息。先不提早几年Win10 刚出的时候那句：
 Win10将会是 Windows 最后一个大版本。
 就算是出新系统，这个时间也比我预想的要早了不少。不过最近并没有特别关注计算机方面的专业新闻了，也许仅仅是我没跟上节奏而已。

@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Thoughts on </title>
-    <link>/tags/thoughts/</link>
-    <description>Recent content in Thoughts on </description>
+    <title>Thoughts on Tatsumi 巽</title>
+    <link>https://tatsumin.dev/tags/thoughts/</link>
+    <description>Recent content in Thoughts on Tatsumi 巽</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 28 Sep 2021 23:51:32 +0200</lastBuildDate><atom:link href="/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Sep 2021 23:51:32 +0200</lastBuildDate><atom:link href="https://tatsumin.dev/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>博客迁移回Hugo以及域名更改</title>
-      <link>/posts/moving-back-to-hugo/</link>
+      <link>https://tatsumin.dev/posts/moving-back-to-hugo/</link>
       <pubDate>Tue, 28 Sep 2021 23:51:32 +0200</pubDate>
       
-      <guid>/posts/moving-back-to-hugo/</guid>
+      <guid>https://tatsumin.dev/posts/moving-back-to-hugo/</guid>
       <description>Moving back to Hugo 是的，我的博客又又又又搬家了。
 不过这回倒是没有过多折腾，而是迁移回到了老朋友Hugo来。大致原因以下几点：
  Windows Terminal的使用体验改善了不少， 微软的WSL项目已经更新到了WSL2，windows上也能很平滑无障碍地安装并使用Linux内核系统的环境和Shell， 通过Netlify免费服务能实现自动生成并部署网页，能够省掉每次生成部署的麻烦，用Git来管理，并存放在github上也能在更换设备后通过简单的 git pull 直接拉下来然后接着写，不用担心备份的问题。 能省掉一份租VPS的钱！  其实吧，还有一个原因是，我果然还是更喜欢这种简单的静态网页。
@@ -30,10 +31,10 @@
     
     <item>
       <title>Hello, World! Again!</title>
-      <link>/posts/hello-world-again/</link>
+      <link>https://tatsumin.dev/posts/hello-world-again/</link>
       <pubDate>Fri, 24 Jul 2020 21:43:45 +0200</pubDate>
       
-      <guid>/posts/hello-world-again/</guid>
+      <guid>https://tatsumin.dev/posts/hello-world-again/</guid>
       <description>诞生前 契机 先提一句标题吧，标题其实是突发奇想来的。
 &amp;ldquo;Hello World!&amp;rdquo; 自是不用过多解释，加了个Again 是因为这并不是我自己搭建的第一个独立博客了，便索性以此表达。
 回到正题。

@@ -1,15 +1,12 @@
-[config]
-base_url                  = "https://tatsumin.dev"           # Your domain name
+baseurl                  = "https://tatsumin.dev"           # Your domain name
 languageCode             = "en-us"
 defaultContentLanguage   = "en"
 isMultilingual           = false
 title                    = "Tatsumi 巽"
 theme                    = "sam"
-pygmentsStyle            = "monokai"                        # https://help.farbox.com/pygments.html
+pygmentsStyle            = "nord"                        # https://help.farbox.com/pygments.html
 pygmentsCodefences       = true
 # googleAnalytics        = ""                               # Tracking code, eg. "UA-111111111-1"
-compile_sass		 = true
-build_search_index	 = true
 [author]
     name		 = "Tatsumi"
 [params]
@@ -18,8 +15,6 @@ build_search_index	 = true
     favicon              = "sam.ico"
     homepage             = "main"                           # What to call the home page link, link will not be rendered if empty
     footerText           = "Call me Sam, a theme for Hugo."
-[markdown]
-    highlight_code	 = true
 # Metadata for Open Graph and Twitter
     description          = ""               # Max 160 characters show in search results
     images               = ["tn.png"]                       # Image that shows on Twitter cards and Open Graph links to the site
@@ -34,14 +29,7 @@ build_search_index	 = true
 # [params.videoBackground]
 #     overlay = "rgba(0, 0, 0, 0.4)" # optional
 
-[extra]
-sam_bottom_menu = true
-sam_menu = [
-    { text = "posts.", link = "/posts" },
-    { text = "about.", link = "/about" },
-    { text = "github.", link = "https://github.com/tatsumin21" },
-    { text = "email.", link = "/contact"}
-]
+
 # [[params.mainMenu]]
 #     link = "gallery"
 #    text = "gallery"
@@ -49,18 +37,17 @@ sam_menu = [
 # [[params.mainMenu]]
 #    link = "portfolio"
 #    text = "portfolio"
-# [[params.mainMenu]]
-#    link = "/posts"
-#    text = "posts."
-
-#[[params.mainMenu]]
-#    link = "/about"
-#    text = "about."
-#[[params.mainMenu]]
-#    link = "https://github.com/tatsumin21"
-#    text = "github."
-#[[params.mainMenu]]
-#    link = "/contact"
-#    text = "email."
-#[imaging]
-#    quality = 75
+[[params.mainMenu]]
+    link = "/posts"
+    text = "posts."
+[[params.mainMenu]]
+    link = "/about"
+    text = "about."
+[[params.mainMenu]]
+    link = "https://github.com/tatsumin21"
+    text = "github."
+[[params.mainMenu]]
+    link = "/contact"
+    text = "email."
+[imaging]
+    quality = 75

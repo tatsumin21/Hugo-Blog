@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Life on </title>
-    <link>/tags/life/</link>
-    <description>Recent content in Life on </description>
+    <title>Life on Tatsumi 巽</title>
+    <link>https://tatsumin.dev/tags/life/</link>
+    <description>Recent content in Life on Tatsumi 巽</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 17 Nov 2019 21:28:46 +0200</lastBuildDate><atom:link href="/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Nov 2019 21:28:46 +0200</lastBuildDate><atom:link href="https://tatsumin.dev/tags/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>渋谷で出会ったサプライズーータイ料理研究所</title>
-      <link>/posts/thai-restaurant-in-shibuya/</link>
+      <link>https://tatsumin.dev/posts/thai-restaurant-in-shibuya/</link>
       <pubDate>Sun, 17 Nov 2019 21:28:46 +0200</pubDate>
       
-      <guid>/posts/thai-restaurant-in-shibuya/</guid>
+      <guid>https://tatsumin.dev/posts/thai-restaurant-in-shibuya/</guid>
       <description>こんにちは。
 先月彼女と東京に行きました。
 洋服以外、サプライズのおいしい味も見つけました。それは今回おすすめしたいレストラン：タイ料理研究所です。

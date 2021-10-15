@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Subsection on Tatsumi 巽</title>
+    <link>/posts/subsection/</link>
+    <description>Recent content in Subsection on Tatsumi 巽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="/posts/subsection/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Another Post</title>
+      <link>/posts/subsection/another-post/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/subsection/another-post/</guid>
+      <description>This is a very simple to post. It includes some placeholder text for the reading time to go up.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</description>
+    </item>
+    
+  </channel>
+</rss>
