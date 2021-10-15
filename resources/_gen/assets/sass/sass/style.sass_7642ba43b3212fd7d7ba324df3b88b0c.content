@@ -150,6 +150,13 @@ article {
     margin: 1em 0em;
     text-align: left;
     color: #ffffff; }
+  article .anchor-link > a {
+    border-bottom: none;
+    color: #ffffff; }
+    article .anchor-link > a:hover > .pilcrow {
+      display: inline; }
+  article span.pilcrow {
+    display: none; }
   article p {
     display: block;
     margin-bottom: 1em;
