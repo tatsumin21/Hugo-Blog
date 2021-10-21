@@ -2,7 +2,7 @@
 title: "Reading Notes: Global Sales-02"
 date: 2021-10-18T09:55:40+02:00
 showDate: true
-draft: true
+draft: false
 tags: ["Notes","Sales"]
 
 ---
