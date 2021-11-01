@@ -1,4 +1,4 @@
----
+-
 title: "Reading Notes: Global Sales-02"
 date: 2021-10-18T09:55:40+02:00
 showDate: true
@@ -19,7 +19,7 @@ choosing the markets that will have the best business impact is the very **found
 
 Next, developing the customer profile
 
-- Understading Who is buying our product will help you understand where you want to sell.
+- Understanding Who is buying our product will help you understand where you want to sell.
 
 ### Choosing the Right Markets
 
@@ -27,7 +27,7 @@ Considering factors:
 
 1. Demographics
 2. Regulatory or legal issue
-  - considering the administrative and legal difficultiies of selling to and getting payment out of those countries
+  - considering the administrative and legal difficulties of selling to and getting payment out of those countries
 3. geographic proximity
   - eg.: working with 3 to 5 countries that are close to each other is a good way to spread the cost of sales
 
@@ -47,7 +47,7 @@ Places to go for business advice: taxpayer-supported government at
 - at the municipal level, and plus
 - the Small Business Administration (depending on your size)
 
-Advisors who make thier money by making changes to products are with expierence in changing, adjusting, or designing products for export. They may be helpful later on in the process, but dangerous in the early stages.
+Advisors who make their money by making changes to products are with experience in changing, adjusting, or designing products for export. They may be helpful later on in the process, but dangerous in the early stages.
 
 Try to establish the best possible network with other export managers to exchange information and advice.
 
