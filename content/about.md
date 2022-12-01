@@ -45,7 +45,7 @@ Linux用的挺顺，但最多写个几行的Bash脚本，看懂各类CUI软件�
 
 ### Now Reading
 
-| Title						| Author 					|
-|-----------------------------------------------|-----------------------------------------------|
-| Global Sales					| Zach Selch 					|
-| Betriebssysteme und Verteilte Systeme(Script)	| Prof. Dr. Christian Siemers(TU Clausthal)	|
+| Title					| Author 	|
+|---------------------------------------|---------------|
+| Global Sales				| Zach Selch 	|
+| 北欧神话：世界开端与尽头的想象	| 保罗·赫尔曼	|
