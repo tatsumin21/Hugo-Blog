@@ -4,6 +4,8 @@ date: 2021-09-29T13:48:09+02:00
 draft: false
 ---
 
+Hello! I'm Tatsumi!
+
 这里是 Tatsumi。Noris，Norihiro，KAI_，这些都是我曾经或者仍在各个平台上使用的名字。除了Tatsumi本身，他们都是我根据自己本名而二次创作想出来的。
 
 INTJ-T 
@@ -24,7 +26,7 @@ B.Sc. in Business Administration
 - Seminar paper: Strategy Analysis of Oil Companies
 - Master Thesis: Omni-channel Retailing and Its Impacts on Customer Experience and Customer Engagement
 
-没错，我并不是计算机相关专业，甚至可以说所学与其没有半毛钱关系。Linux也好，VPS和这个Hugo Blog也罢，都是纯粹出于兴趣在折腾学习使用。
+非计算机相关专业，甚至可以说所学与其没有半毛钱关系。Linux也好，VPS和这个Hugo Blog也罢，都是纯粹出于兴趣在折腾学习使用。
 
 Linux用的挺顺，但最多写个几行的Bash脚本，看懂各类CUI软件的配置文件(Haskell除外！！)，完全不会编程。
 
