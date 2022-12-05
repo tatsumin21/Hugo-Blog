@@ -122,4 +122,5 @@ mkdir -p /var/lib/pleroma/static/static/themes
 还有这些文章可以参考：
 
 [我的pleroma搭建笔记](https://dasgelobteland.github.io/posts/22pleroma/)
+
 [宝宝的活动板房](https://blog.debula.ml/index.php/archives/5/)
