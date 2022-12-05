@@ -3,8 +3,9 @@ title: "Establish Pleroma on Ubuntu 22.04"
 date: 2022-12-05T18:59:38+01:00
 draft: false
 showDate: true
-tags: - InfoTech
-      - Linux
+tags: 
+  - InfoTech
+  - Linux
 ---
 
 ## 前言
