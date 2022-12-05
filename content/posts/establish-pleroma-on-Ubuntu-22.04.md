@@ -1,5 +1,5 @@
 ---
-title: "Establish Pleroma on Ubuntu 22.04"
+title: "在Ubuntu 22.04上搭建Pleroma实例"
 date: 2022-12-05T18:59:38+01:00
 draft: false
 showDate: true
