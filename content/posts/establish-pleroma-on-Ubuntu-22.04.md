@@ -100,7 +100,7 @@ mkdir -p /var/lib/pleroma/static/static/themes
 
 然后再往里塞东西就好。
 
-### 加入Fedivse
+### 加入Fediverse
 
 刚建好的站点的世界时间线一定是什么都没有的。它会随着你Follow的好友和于其他人的互动而慢慢丰富起来，但作为最开始可以先通过下面两种方法让里面内容更多一些更快和Fediverse的大家互动起来
 
