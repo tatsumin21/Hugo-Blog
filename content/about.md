@@ -6,7 +6,7 @@ draft: false
 
 Hello! I'm Tatsumi!
 
-这里是 Tatsumi。Noris，Norihiro，KAI_，这些都是我曾经或者仍在各个平台上使用的名字。除了Tatsumi本身，他们都是我根据自己本名而二次创作想出来的。
+这里是 Tatsumi。
 
 INTJ-T 
 
@@ -16,15 +16,6 @@ INTJ-T
 
 M.Sc. in Technische Betriebswirtschaftslehre(Technical Business Administration)
 - Vertiefungsrichtung Fertigung(majoring in Manufacturing)
-
-B.Sc. in Business Administration
-- Majoring in Gernal Business
-
-### Publications
-
-- Seminar paper: Conceptualizing Capitalism
-- Seminar paper: Strategy Analysis of Oil Companies
-- Master Thesis: Omni-channel Retailing and Its Impacts on Customer Experience and Customer Engagement
 
 非计算机相关专业，甚至可以说所学与其没有半毛钱关系。Linux也好，VPS和这个Hugo Blog也罢，都是纯粹出于兴趣在折腾学习使用。
 
@@ -52,3 +43,9 @@ Linux用的挺顺，但最多写个几行的Bash脚本，看懂各类CUI软件�
 | Global Sales			| Zach Selch 	|
 | 北欧神话：世界开端与尽头的想象| 保罗·赫尔曼	|
 | 论法的精神			| 孟德斯鸠	|
+
+## Find Me
+
+- [Email](https://tatsumin.dev/contact/)
+- Fediverse: [@Tatsumin@nulltea.cc](https://nulltea.cc/tatsumin)
+- Github: [tatsumin21](https://github.com/tatsumin21)
