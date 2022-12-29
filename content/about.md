@@ -49,4 +49,5 @@ Linux用的挺顺，但最多写个几行的Bash脚本，看懂各类CUI软件�
 - [Email](https://tatsumin.dev/contact/)
 - Fediverse: [@Tatsumin@nulltea.cc](https://nulltea.cc/tatsumin)
 - Matrix: @tatsumin21:matrix.vnil.de
+- IRC: @Tatsumin@libera.chat
 - Github: [tatsumin21](https://github.com/tatsumin21)
