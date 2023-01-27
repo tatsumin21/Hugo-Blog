@@ -52,7 +52,7 @@ It is a simple script that will let you choose the part of screen and make a scr
 
 I did not put all my configuration here just because almost all of them are only basic configs that can be found in the internet or Arch Wiki.
 
-Wayland has been developed alreadz several years but also still in start-up stage.
+Wayland has been developed already several years but also still in start-up stage.
 
 I will try to mainly use wayland for several weeks or months. If there is not too many significant bugs that will have a great influence on daily usage, I will stay at wayland as daily drive.
 
