@@ -29,7 +29,7 @@ Tags:
 
 #### Persona 5 Royal
 
-!(Persona 5 Royal)[/img/8842019-persona-5-royal-playstation-4-front-cover.jpg]
+![Persona 5 Royal](/img/8842019-persona-5-royal-playstation-4-front-cover.jpg)
 
 大约是6月底的时候打通了P5R。
 
@@ -48,7 +48,7 @@ P5R是值得玩的，如果你没玩过P5无印的话。
 
 #### Final Fantasy XVI
 
-!(Final Fantasy XVI)[/img/ff16.jpg]
+![Final Fantasy XVI](/img/ff16.jpg)
 
 基于 FF15, FF7RE, FF7-Crisis Core 的体验来看，FF16 在我这是无功无过的一作。可以玩不拉跨，但不出彩。
 
