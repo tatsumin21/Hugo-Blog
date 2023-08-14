@@ -1,5 +1,5 @@
 ---
-title: "Switch From Pulseaudio to Pipwire"
+title: "Arch Linux 音频服务器从PulseAudio 切换到 Pipwire"
 date: 2023-08-14T22:24:01+02:00
 draft: false
 showDate: true
@@ -21,11 +21,16 @@ Tags:
 ## 怎么切换
 
 1. 如果现在正在用PulseAudio，停掉Systemd启用了的Service和Socket。
-2. 安装相关包，以Arch Linux为例
+2. 安装相关包，以Arch Linux为例：
 
 ```bash
 # pacman -S pipewire pipewire-pulse pipewire-alsa wireplumber
 ```
+
+安装的时候会提示Pipewire和PulseAudio冲突，需要卸载PulseAudio，下定决心了的话确认就好。
+
+如果有需要还可以安装multilib仓库里的 `lib32-pipewire`，来提供对32位的支持。
+
 3. enable and start Pipewire相关service和Socket，然后重启一次，简单日常使用这样应该就可以了。
 
 ## 更专业一点的处理
@@ -34,7 +39,8 @@ Tags:
 
 ## 更专业一点的介绍
 
-[概览Linux音频系统 - Leo's Field](https://szclsya.me/zh-cn/posts/linux/audio-system/)
-[用了200天的PipeWire到底好在哪？ - 啦哆咪](https://lado.me/2022/04/16/whats-good-about-pipewire/)
+- [概览Linux音频系统 - Leo's Field](https://szclsya.me/zh-cn/posts/linux/audio-system/)
+
+- [用了200天的PipeWire到底好在哪？ - 啦哆咪](https://lado.me/2022/04/16/whats-good-about-pipewire/)
 
 
