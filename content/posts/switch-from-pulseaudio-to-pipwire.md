@@ -1,5 +1,5 @@
 ---
-title: "Arch Linux 音频服务器从PulseAudio 切换到 Pipwire"
+title: "Arch Linux 音频服务器从PulseAudio 切换到 Pipewire"
 date: 2023-08-14T22:24:01+02:00
 draft: false
 showDate: true
