@@ -2,9 +2,10 @@
 title: "Desktop in 2024"
 date: 2024-09-05T20:32:11+02:00
 draft: false
-showDate: ture
-tags: - Linux
-- Life
+showDate: true
+tags: 
+  - Linux
+  - Life
 ---
 又是好久没更新了，懒了很久一直都没动力。直到上周实在是自己看不下去自己了才狠下心逼自己动起来。
 
