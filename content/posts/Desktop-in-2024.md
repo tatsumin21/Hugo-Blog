@@ -2,7 +2,7 @@
 title: "Desktop in 2024"
 date: 2024-09-05T20:32:11+02:00
 draft: false
-showDate: true
+showDate: ture
 tags: - Linux
 - Life
 ---
