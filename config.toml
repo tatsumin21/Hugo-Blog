@@ -2,8 +2,8 @@ baseurl                  = "https://tatsumin.dev"           # Your domain name
 languageCode             = "en-us"
 defaultContentLanguage   = "en"
 isMultilingual           = false
-title                    = "Tatsumi 巽"
-theme                    = "sk1"
+title                    = "Tatsumi"
+theme                    = "sam"
 pygmentsStyle            = "native"                        # https://help.farbox.com/pygments.html
 pygmentsCodefences       = true
 # googleAnalytics        = ""                               # Tracking code, eg. "UA-111111111-1"
@@ -18,7 +18,7 @@ pygmentsCodefences       = true
 # Metadata for Open Graph and Twitter
     description          = ""               # Max 160 characters show in search results
     images               = ["tn.png"]                       # Image that shows on Twitter cards and Open Graph links to the site
-    subtitle             = "a personal blog"
+    subtitle             = "personal blog"
     author               = "Tatsumi N."
     # rss                = ""
 
