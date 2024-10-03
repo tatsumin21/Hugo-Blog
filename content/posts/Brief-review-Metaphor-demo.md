@@ -4,7 +4,7 @@ date: 2024-10-03T16:42:42+02:00
 draft: false
 showDate: true
 Tags:
-  - Games
+  - Gaming
 ---
 Atlus一周前放出了新IP 暗喻幻想的试玩，基于对 Persona5Roryal 和 Perona3Reload 的印象整体来说都还不错，便下了试玩来看看。
 
