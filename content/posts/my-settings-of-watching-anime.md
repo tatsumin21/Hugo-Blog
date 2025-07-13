@@ -3,7 +3,7 @@ title: "我的Linux下简易（海外）看番配置备忘"
 date: 2025-07-13T19:01:17+02:00
 draft: false
 showDate: true
-Tags
+Tags:
  - Linux
  - Life
 ---
