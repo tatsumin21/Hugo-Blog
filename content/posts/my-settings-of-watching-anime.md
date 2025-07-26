@@ -115,10 +115,10 @@ Chrome同理。
 ytdl-raw-options=cookies-from-browser=firefox:/path/to/your/librewolf/cookies/
 ```
 
-同理，如浏览器为基于Chrome内核的qutebrowser，则为：
+同理，如浏览器为基于Chromium内核的qutebrowser，则为：
 
 ```
-ytdl-raw-options=cookies-from-browser=chrome:/path/to/your/qutebrowser/cookies/
+ytdl-raw-options=cookies-from-browser=chrmium:/path/to/your/qutebrowser/cookies/
 ```
 
 其他以此类推，找到自己浏览器的cookies存放地址后进行替换即可。
