@@ -1,7 +1,7 @@
 ---
 title: "显示器炸啦！"
 date: 2026-05-19T17:08:22+02:00
-draft: true
+draft: false
 showDate: true
 Tags:
   - Life
